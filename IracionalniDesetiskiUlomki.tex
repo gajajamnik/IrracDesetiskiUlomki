@@ -1,0 +1,238 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[slovene]{babel}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+
+\usepackage{url}
+
+
+\def\N{\mathbb{N}} % mnozica naravnih stevil
+\def\Z{\mathbb{Z}} % mnozica celih stevil
+\def\Q{\mathbb{Q}} % mnozica racionalnih stevil
+\def\R{\mathbb{R}} % mnozica realnih stevil
+\def\C{\mathbb{C}} % mnozica kompleksnih stevil
+\newcommand{\geslo}[2]{\noindent\textbf{#1} \quad \hangindent=1cm #2\\[-1pc]}
+
+\def\qed{$\hfill\Box$}   % konec dokaza
+\def\qedm{\qquad\Box}   % konec dokaza v matematičnem načinu
+\newtheorem{izrek}{Izrek}
+\newtheorem{trditev}{Trditev}
+\newtheorem{posledica}{Posledica}
+\newtheorem{lema}{Lema}
+\newtheorem{opomba}{Opomba}
+\newtheorem{definicija}{Definicija}
+\newtheorem{zgled}{Zgled}
+
+\title{O nekaterih iracionalnih desetiških ulomkih \\ 
+\Large Seminar}
+\author{Gaja Jamnik \\
+Fakulteta za matematiko in fiziko \\
+Oddelek za matematiko}
+\date{2.\ april 2021}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Uvod}
+V tem dokumentu bomo obravnavali realna števila zapisana v obliki decimalnega zapisa.
+Spomnimo se definicije desetiških ulomkov ter decimalnega zapisa.
+
+\begin{definicija}
+    {\em Desetiški ulomek} je ulomek, katerega imenovalec je potenca števila $10$. Zapis desetiškega ulomka navadno
+    nadomestimo z zapisom z decimalno vejico, ki mu pravimo {\em decimalni zapis}. Če ponazorimo s primerom, namesto 
+    $ \frac{23}{1000}$ pišemo $0,023$ 
+\end{definicija}
+
+Pri obravnavi številskih množic se že v srednji šoli spoznamo z razliko v decimalnem zapisu
+racionalnih in iracionalnih števil. Racionalna števila lahko zapišemo
+s končnim ali periodičnim decimalnim zapisom, medtem ko je zapis iracionalnega števila možen 
+le z neskončno neperiodičnimi decimalkami.
+
+Zanimalo nas bo pa ravno obratno. Kaj nam lahko decimalni zapis realnega števila $x$ pove o njegovi racionalnosti
+oz.\ iracionalnosti. \\
+OPOMBA: Zaradi poenostavitve privzemimo, da velja $ 0 \le x \le 1$.
+
+V ta namen podajmo naslednjo definicijo.
+
+\begin{definicija}
+    \label{defincija blokov}
+    Naj bo $x$ realno število, $ 0 \le x \le 1$, podano z decimalnim zapisom: 
+    \[ 
+        \begin{split}
+            x & = \sum^n_{i=1} c_i 10^{-i} = \\
+            & = 0,c_0c_1c_2 \cdots c_n ,
+        \end{split}   
+    \]
+    kjer so $0 \leq c_i \leq 9 \ \forall i = 1, \dots, s$.
+    
+    Z $b$ označimo celo število sestavljeno iz zaporedja števk
+    $b_1b_2b_3 \dots b_s$, 
+    kjer je $s\geq 1$ in $0 \leq b_i \leq 9 \ \forall i = 1, \dots, s$.
+    Pravimo, da število $x$ {\em vsebuje blok števil $(b) = (b_1b_2b_3 \dots)$}, če obstaja $j \geq 0$, da je 
+    $c_{i+j} = b_i$ za vse $i=1, 2, \dots s$.
+\end{definicija}
+
+\begin{zgled}
+    Število $0,135627$ vsebuje blok $(356)$, vendar ne vsebuje bloka $(352)$.
+\end{zgled}
+
+Poljubno decimalno število lahko razumemo kot zaporedje blokov celih števil.
+Tako je na primer število $0,11223344 \cdots$ zaporedje blokov $(nn)$,
+kjer je $n \in \N$.
+
+\section{O številu $0,23571113 \dots$}
+
+Za začetek obravnavajmo število $0,23571113 \dots$, ki je zgrajeno iz zaporedja
+blokov praštevil. Očitno decimalno število ni končno. Iz zapisa pa ne moremo razbrati ali 
+je po nekem členu decimalno število periodično, zato ni očitno ali je število racionalno.
+Trdimo naslednje:
+
+\begin{trditev}
+    \label{trditev praštevila}
+    Število $0,23571113 \dots$ je iracionalno.
+\end{trditev}
+
+Za dokaz te trditve bomo potrebovali različico \textbf{Dirichletovega izreka}, ki pravi naslednje:
+
+\begin{izrek}[Dirichletov izrek]
+    \label{Dirichletov izrek}
+    V vsakem zaporedju $ \lbrace a_n + b \rbrace_{n \in \N_0}$ naravnih števil, kjer sta $a$ in $b$
+    tuji si naravni števili, je neskončno praštevil.
+\end{izrek}
+
+\noindent
+{\em Dokaz trditve:\/} Naj bo $s \geq 0$ celo število. Po izreku \ref{Dirichletov izrek} vsako zaporedje
+$ \{10^{s+1}k + 1\}$, $k \in \N$ vsebuje neskončno praštevil. Torej obstajajo praštevila
+oblike $(k)\underbrace{00 \dots}_{s}1$, kjer števkam števila $k$ sledi $s$ ničel ter ena enica. 
+Decimalno število $0,23571113\dots$ očitno vsebuje vse bloke take oblike za $\forall s \geq 0$. Z večanjem števila
+$s$ narašča tudi število ničel v posameznem bloku, kar pomeni, da po še tako pozni decimalki zapis ne bo periodičen.
+\qed
+
+%% morda podamo še en dokaz???
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Decimalna števila z naraščajočimi bloki}
+
+% POPRAVI TA UVOD!!!
+V prejšnjem razdelku smo dokazali, da je število $0,2371113 \dots$ iracionalno. Opazimo, da je to število
+sestavljeno iz zaporedja blokov praštevil. Zanima nas kakšni morajo biti bloki iz katerega je sestavljeno decimalno
+število, da bo iracionalno. 
+
+Naj bo $1 \leq a_1 \le  a_2 \le \dots $ strogo naraščajoče zaporedje celih števil. 
+Označimo: \[Dec\{a_k\} = 0,(a_1)(a_2)(a_3)... \  \ ;  a_k \in \Z \ k \in \N \]
+Zanimajo nas lastnosti zaporedja $\{a_k\}$, ki nam zagotovijo, da bo $Dec\{a_k\}$ iracionalno.
+
+
+\begin{izrek}\label{irac1}
+    
+    Če za strogo naraščajoče zaporedje celih števil $\{a_i\}_{i \in \N}$ velja 
+    \[ \sum_{i=1}^{\infty} \frac{1}{a_i} = \infty ,\]
+    potem je $Dec\{a_k\}$ iracionalno.
+\end{izrek}
+
+Ta izrek je posplošitev trditve \ref{trditev praštevila}, ki pravi, da je število $0,23571113 \dots$
+iracionalno. Za zaporedje praštevil $2, 3, 5, 7, \dots$ namreč velja
+\[
+    \sum_{p \ \text{praštevilo}}\frac{1}{p} = \frac{1}{2} + \frac{1}{3} + \frac{1}{5} + \frac{1}{7} + \dots = \infty ,\]
+kar je leta 1737 dokazal Leonhard Euler.
+
+%% TU MORDA DODAJ SLIKICO
+
+Za dokaz izreka \ref{irac1} bomo potrebovali naslednjo lemo.
+
+\begin{lema}
+    Naj bo $(b) = (b_1b_2b_3 \dots b_s)$ blok števil. Z $X = X(b_1b_2b_3 \dots b_s)$ označimo
+    naraščajoče zaporedje pozitivnih celih števil, ki ne vsebujejo bloka števil (b). Potem 
+    \[ \sum_{x \in X}^{\infty} \frac{1}{x}\] konvergira.
+\end{lema}
+
+\begin{opomba}
+    \label{lema bloki}
+    V lemi, v nasprotju z definicijo \ref{defincija blokov}, obravnavamo vsebovanost blokov v celih
+    in ne decimalnih številih. Definicijo v ta namen prilagodimo tako, da le spremenimo potenco števila
+    $10$ v vsoti. Celo število $x$ tako zapišemo kot 
+    \[ 
+        \begin{split}
+            x & = \sum^n_{i=1} c_i 10^{n-i} = \\
+            & = c_0c_1c_2 \cdots c_n \ .
+        \end{split} \]
+\end{opomba}
+
+% MORDA DODAJ DEFINICIJO CELEGA DELA REALNEGA ŠTEVILA
+
+\noindent
+{\em Dokaz leme \ref{lema bloki}:\/} Označimo delno vsoto naše vrste 
+\[ S_n = \frac{1}{x_1} + \frac{1}{x_2} + \dots \frac{1}{x_n} \ . \]
+Naj bo $t \in \N $ tak, da velja $x_{t-1} \le 10^s \leq x_t$. Število števk bloka $(b) = (b_1b_2b_3 \dots b_s)$
+je očitno $s$, število $10^s$ pa ima $s+1$ števk, kar pomeni, da imajo vsi $x_i$ za $i \geq t$
+več števk kot je dolžina bloka. Delno vsoto sedaj preoblikujemo v
+\[ S_n = \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}(\frac{1}{\frac{x_{t + 1}}{10^s}} + \dots + \frac{1}{\frac{x_n}{10^s}})
+    \le  \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) ,
+\]
+kjer smo v neenakosti upoštevali, da za poljuben $y \ge 0$ velja $y \ge \lfloor y \rfloor$.
+
+Ker za vsak $\ t \le i \leq n$ velja $10^s \leq x_i$, bo $\lfloor \frac{x_i}{10^s} \rfloor$ pozitivno celo število.
+To število lahko interpretiramo kot $x_i$ brez zadnjih $s$ števk. Ker vsi $x_i \in X$
+ne vsebujejo bloka $(b)$, ga očitno ne vsebuje niti njegovih prvih nekaj števk. Od tod sledi, da 
+$ \forall x_i, \ t \le i \leq n \ \exists x_y \in X$ tako da $ x_y = \lfloor \frac{x_i}{10^s} \rfloor$.
+
+Novo nastala števila, pa so si lahko med seboj enaka. Tako bi na primer za $s=2$ veljalo 
+$ \lfloor\frac{12345}{10^2}\rfloor = \lfloor \frac{12387}{10^2}\rfloor$.
+Opazimo, da se blok $(b_1b_2b_3 \dots b_s)$ pojavi v vsaj eni od prvih $10^s$ naravnih števil.
+Torej lahko poljuben $x_j \in X$ zadošča za največ $10^s - 1$ vrednosti $\lfloor \frac{x_i}{10^s} \rfloor$.
+
+Po zgornjem premisleku lahko sedaj ocenimo izraz 
+$(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) \le (10^s - 1)S_n$.
+Če to oceno uporabimo na delni vsoti, dobimo:
+\[
+    \begin{split}
+    S_n &\le \sum_{i=1}^t \frac{1}{x_i} + (10^s - 1)10^{-s}S_n \\
+    S_n &\le 10^s \sum_{i=1}^t \frac{1}{x_i}
+    \end{split}
+    \]
+
+%% BOLJŠE RAZLOŽI TALE SKLEPP!!!
+Desna stran neenačbe je neodvisna od $n$, zato vrsta konvergira.
+\qed
+\\
+
+\noindent
+{\em Dokaz izreka \ref{irac1}:\/} Naj bo $\{a_i\}_{i\in \N}$ strogo naraščajoče zaporedje
+celih števil za katero velja $\sum_{i=1}^{\infty}\frac{1}{a_i} = \infty$. Izrek bomo dokazali
+s protislovjem. Predpostavimo, da je $Dec\{a_i\} = 0,(a_1)(a_2) \dots \in \Q$. To decimalno
+število očitno ni končno, torej je periodično. 
+To pomeni, da obstaja nek blok števil $(b) = (b_1b_2b_3 \dots b_s)$,
+ki se v decimalnem zapisu periodično ponavlja od nekega mesta dalje. 
+
+Definirajmo blok $(c)$ dolžine $2s$, tak da velja: če je $(b) = (11 \cdots 1)$, naj bo blok $(c)$
+iz samih dvojic, v nasprotnem primeru pa naj bo $(c)$ iz samih enic.
+
+Naj bo $Y = Y(c_1, c_2, \dots, c_{2s})$ zaporedje naravnih števil, ki ne vsebuje bloka $(c)$.
+Razdelimo našo vsoto glede na vsbovanost v $Y$:
+\[
+    \sum_{i=1}^{\infty} \frac{1}{a_i} = \sum_{a \in Y}\frac{1}{a} + \sum_{a \notin Y} \frac{1}{a}
+    \]
+
+Po predpostavki vsota na levi strani enačaja divergira in po lemi vsota $\sum_{a \in Y}\frac{1}{a}$
+konvergira. Od tod sledi, da bo $\sum_{a \notin Y} \frac{1}{a}$ divergirala.
+To pomeni, da bo obstajalo neskončno $a_i$ v $Dec\{a_i\} = 0,(a_1)(a_2) \dots$, ki vsebujejo blok 
+$(c_1c_2\dots c_{2s})$. Ta blok je dvakrat daljši kot blok $(b)$ in z različnimi števkami, zato se ne more
+zgoditi, da bi bil $(c)$ vsebovan v $(b)$ ali sestavljal njegove dele. 
+%% Tj. ne more se zgoditi, da bi na primer
+Blok $(b)$ se zato ne bo ponavljal v neskončnosti, posledično $Dec\{a_i\}$ ne more biti periodično.
+\qed
+
+
+\end{document}
