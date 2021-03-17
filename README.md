@@ -1,0 +1,2 @@
+# IrracDesetiskiUlomki
+delo pri seminarju
