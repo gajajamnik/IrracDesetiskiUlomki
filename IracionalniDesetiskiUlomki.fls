@@ -142,10 +142,10 @@ INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr6.tfm
 INPUT c:\Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.aux
+INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
-INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx12.pfb
@@ -169,6 +169,8 @@ INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy6.pfb
+INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy6.pfb
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy8.pfb
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy8.pfb
 INPUT C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb

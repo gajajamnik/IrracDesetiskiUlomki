@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1616017498 "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex" "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.pdf" "IracionalniDesetiskiUlomki" 1616017499
+["pdflatex"] 1616226842 "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex" "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.pdf" "IracionalniDesetiskiUlomki" 1616226859
   "C:/Users/gajaj/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1570814991 4273480 7be2a7d1a4e2a213550b78b884ea33f4 ""
   "C:/Users/gajaj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1574623536 83930 a60ec061f757cf348be11677879bca0c ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc" 1254935040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -48,6 +48,7 @@
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb" 1254935040 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb" 1254935040 109265 e6c7d377db6dfccd4a123fb26da8cffb ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb" 1254935040 27863 09ce3735688ffde955e72da27c95b61a ""
+  "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb" 1254935040 28109 6d61305ed3d0eb794ebe36f15cf44aa0 ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb" 1254935040 27802 5c876bb2c4040caaf035d60bd74a86bd ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/mkii/supp-pdf.mkii" 1550860920 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/babel.def" 1569590260 81153 c165cda4fd71e07a457c3975b3e5e95b ""
@@ -94,13 +95,13 @@
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty" 1564406281 7075 2fe3d848bba95f139de11ded085e74aa ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty" 1564406283 22417 1d9df1eb66848aa31b18a593099cf45c ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "IracionalniDesetiskiUlomki.aux" 1616017498 570 eff245eedcfaffb04ce5eb7bc6fc7466 "pdflatex"
-  "IracionalniDesetiskiUlomki.tex" 1616017496 10538 6f52a1fc009a01c0de2a9cfdce111098 ""
-  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.aux" 1616017498 570 eff245eedcfaffb04ce5eb7bc6fc7466 ""
-  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex" 1616017496 10538 6f52a1fc009a01c0de2a9cfdce111098 ""
+  "IracionalniDesetiskiUlomki.aux" 1616226842 570 eff245eedcfaffb04ce5eb7bc6fc7466 "pdflatex"
+  "IracionalniDesetiskiUlomki.tex" 1616226858 12595 23d483f78fd41d90c904102142d0bf27 ""
+  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.aux" 1616226842 570 eff245eedcfaffb04ce5eb7bc6fc7466 ""
+  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex" 1616226858 12595 23d483f78fd41d90c904102142d0bf27 ""
   (generated)
-  "IracionalniDesetiskiUlomki.pdf"
   "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.log"
-  "IracionalniDesetiskiUlomki.aux"
-  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.pdf"
   "IracionalniDesetiskiUlomki.log"
+  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.pdf"
+  "IracionalniDesetiskiUlomki.aux"
+  "IracionalniDesetiskiUlomki.pdf"

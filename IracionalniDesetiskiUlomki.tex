@@ -56,12 +56,15 @@ Spomnimo se definicije desetiških ulomkov ter decimalnega zapisa.
 
 Pri obravnavi številskih množic se že v srednji šoli spoznamo z razliko v decimalnem zapisu
 racionalnih in iracionalnih števil. Racionalna števila lahko zapišemo
-s končnim ali periodičnim decimalnim zapisom, medtem ko je zapis iracionalnega števila možen 
+s končnim ali neskončnim periodičnim decimalnim zapisom, medtem ko je zapis iracionalnega števila možen 
 le z neskončno neperiodičnimi decimalkami.
 
 Zanimalo nas bo pa ravno obratno. Kaj nam lahko decimalni zapis realnega števila $x$ pove o njegovi racionalnosti
 oz.\ iracionalnosti. \\
 OPOMBA: Zaradi poenostavitve privzemimo, da velja $ 0 \le x \le 1$.
+
+% Včasih pa iz zapisa decimalnega števila, z neskončno števkami ne moremo razbrati ali je periodično on nekega člena dalje.
+% Zanimalo nas bo kako lahko v takem primeru ugotovimo ali je število racionalno ali iracionalno.
 
 V ta namen podajmo naslednjo definicijo.
 
@@ -126,7 +129,9 @@ $s$ narašča tudi število ničel v posameznem bloku, kar pomeni, da po še tak
 \section{Decimalna števila z naraščajočimi bloki}
 
 % POPRAVI TA UVOD!!!
-V prejšnjem razdelku smo dokazali, da je število $0,2371113 \dots$ iracionalno. Opazimo, da je to število
+V prejšnjem razdelku smo dokazali, da je število $0,2371113 \dots$ iracionalno.
+%To nam daje motivacijo za posplošitev tega primera 
+Opazimo, da je to število
 sestavljeno iz zaporedja blokov praštevil. Zanima nas kakšni morajo biti bloki iz katerega je sestavljeno decimalno
 število, da bo iracionalno. 
 
@@ -232,7 +237,49 @@ $(c_1c_2\dots c_{2s})$. Ta blok je dvakrat daljši kot blok $(b)$ in z različni
 zgoditi, da bi bil $(c)$ vsebovan v $(b)$ ali sestavljal njegove dele. 
 %% Tj. ne more se zgoditi, da bi na primer
 Blok $(b)$ se zato ne bo ponavljal v neskončnosti, posledično $Dec\{a_i\}$ ne more biti periodično.
+
 \qed
 
-%%%%
+
+Dokazan izrek nam poda pogoj za katerega bo $Dec\{a_k\}$ iracioanlno, vendar to ne pomeni da je
+to tudi edini pogoj. Predpostavimo, da zaporedje $a_k$ narašča kot $e^{\sqrt{k}}$.
+Z uporabo integralskega kriterija za konvergenco vrst lahko preverimo, da pogoj izreka \ref{irac1}
+za tako zaporedje ne bo izpolnjen:
+
+$\frac{1}{e^{\sqrt{x}}}$ je zvezna, pozitivna in padajoča na $[1, \infty)$ zato lahko uporabimo
+integralski kriterij.
+\[
+    \begin{split}
+    \int_1^{\infty}\frac{1}{e^{\sqrt{x}}}dx &= 2e^{-\sqrt{x}}(- \sqrt{x} - 1) \big|_1^{\infty} = \\
+    &= -\frac{4}{e}
+    \end{split}
+\]
+Zgornji integral konvergira, zato bo tudi vrsta $\sum_1^{\infty}\frac{1}{e^{\sqrt{x}}}$ bo zato konvergentna in s tem bo konvergirala tudi $\sum_1^{\infty}\frac{1}{a_k}$.
+
+V nadaljevanju bomo pokazali, da je $Dec\{a_k\}$ iracioanlno, tudi kadar $\{a_k\}$ narašča kot $e^{\sqrt{k}}$.
+%% tu malo bolj poveži z besedilom
+% podaj primer ki velja za posledico a ne velja za izrek
+
+\begin{izrek}
+    Naj bo $Dec\{a_k\} \in \Q$. Potem obstaja $x \in \R, \ x \ge 1$ in pozitivna konstanta $C$,
+    da velja $a_k \geq Cx^k$ za vsak $k \geq 1$.
+\end{izrek}
+
+Izrek pove, da če je $Dec\{a_k\}$ racionalno, potem zaporedje $a_k$ narašča vsaj eksponentno.
+
+\begin{posledica}
+    Predpostavimo, da velja
+    \[
+        \sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty\]
+    za vsak $y \ge 1$. Potem je decimalno število $Dec\{a_k\}$ iracionalno.
+\end{posledica}
+
+Zgornja posledica je močnejša kot izrek \ref{irac1}. Pogoj iz izreka \ref{irac1} 
+$(\sum_{i=1}^{\infty} \frac{1}{a_i} = \infty)$ očitno implicira
+pogoj iz zgornje posledice $(\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty , \ \forall y \ge 1)$.
+Po drugi strani pa bi 
+
+
+
+
 \end{document}
