@@ -1,0 +1,196 @@
+\documentclass{beamer}
+
+\usepackage[slovene]{babel}
+\usepackage{amsfonts,amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+
+\usetheme{Warsaw}
+
+\def\N{\mathbb{N}} % mnozica naravnih stevil
+\def\Z{\mathbb{Z}} % mnozica celih stevil
+\def\Q{\mathbb{Q}} % mnozica racionalnih stevil
+\def\R{\mathbb{R}} % mnozica realnih stevil
+\def\C{\mathbb{C}} % mnozica kompleksnih stevil
+
+
+\def\qed{$\hfill\Box$}   % konec dokaza
+\newtheorem{izrek}{Izrek}
+\newtheorem{trditev}{Trditev}
+\newtheorem{posledica}{Posledica}
+\newtheorem{lema}{Lema}
+\newtheorem{definicija}{Definicija}
+\newtheorem{pripomba}{Pripomba}
+\newtheorem{primer}{Primer}
+\newtheorem{zgled}{Zgled}
+\newtheorem{zgledi}{Zgledi uporabe}
+\newtheorem{zglediaf}{Zgledi aritmetičnih funkcij}
+\newtheorem{oznaka}{Oznaka}
+
+\title{O nekaterih iracionalnih desetiških ulomkih}
+\author{Gaja Jamnik}
+\institute{Fakulteta za matematiko in fiziko \\
+Oddelek za matematiko}
+\date{2.\ april 2021}
+
+\begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Kot že naslov predstavitve pove, bomo danes govorili o desetiških ulomkih.
+% Pa se za začetek spomnimo definicije.
+
+\begin{frame}
+    \frametitle{Uvod}
+    \begin{definicija}
+        \alert{Desetiški ulomek}
+        je ulomek, katerega imenovalec je potenca števila $10$.
+        \[ \frac{73}{1000}\]
+        Za poenostavitev uporabljamo zapis z decimalno vejico:
+        \[ 0,073\]
+    \end{definicija}
+
+    \pause
+
+    Kakšna je razlika v decimalnem zapisu racionalnega in iracionalnega števila?
+
+% Zdaj pa me zanima ali bi kdo povedal razliko v zapisu racionalnega in irracionalnega števila?
+% To smo se naučili že v srednji, morda celo osnovni šoli.
+
+    \pause
+    \begin{itemize}
+        \item racionalna števila: $5,6$;  $0,\overline{26}$
+        \item irracionalna števila: $\pi = 3,1415926535 \dots$
+    \end{itemize}
+\end{frame}
+
+% No iz vsakega zapisa desetiškega ulomka z neskončno decimalkami pa ne moremo zagotovo razbrati
+% ali se po nekem členu decimalke periodično ponavljajo ali ne.
+% Za pomoč pri obravnavi decimalnih števil, si poglejmo naslednjo definicijo.
+
+\begin{frame}
+    \frametitle{Uvod}
+    \begin{definicija}
+        Naj bo $x$ realno število, $ 0 < x < 1$, podano z decimalnim zapisom: 
+        \[ 
+            \begin{split}
+                x & = \sum^n_{i=1} c_i 10^{-i} = \\
+                & = 0,c_0c_1c_2 \cdots c_n ,
+            \end{split}   
+        \]
+        kjer so $0 \leq c_i \leq 9 \ \forall i = 1, \dots, s$.
+        
+        Z $b$ označimo celo število sestavljeno iz zaporedja števk
+        $b_1b_2b_3 \dots b_s$, 
+        kjer je $s\geq 1$ in $0 \leq b_i \leq 9 \ \forall i = 1, \dots, s$.
+
+        Pravimo, da število $x$ \alert{vsebuje blok števil} $(b) = (b_1b_2b_3 \dots)$, če obstaja $j \geq 0$, da je 
+        $c_{i+j} = b_i$ za vse $i=1, 2, \dots s$. 
+    \end{definicija}
+
+    % ta definicija je popolni formalizem. Čisto intuitivno si bomo blok predstavljali
+    % kot zaporedje števk, ki je vsebovan (ali ne) v decimalnem zapisu.
+
+    \pause
+    \begin{primer}
+        $0,5934$ vsebuje blok $(593)$, ne vsebuje pa $(594)$ ali $(43)$.
+    \end{primer} 
+
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{O številu $0,23571113\dots$}
+    Poljubno decimalno število lahko razumemo kot zaporedje blokov celih števil.
+
+    %Poglejmo si konkreten primer, ki nam bo služil kot motivacija za naprej
+    \pause
+    \[0,235711131719\dots\]
+    % To število kot lahko prepoznate je decimalno število, ki je sestavljeno
+    % iz zaporedja blokov praštevil.
+    \pause
+    %njegov zapis lahko ponazorimo kot:
+    \[0,(p_1)(p_2)(p_3)(p_4)\dots\]
+    $\{p_i\}$ predstavlja zaporedje praštevil.
+    \pause
+    \newline
+    \newline
+    Ali je to število iracionalno?
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{O številu $0,23571113\dots$}
+    %Trdimo naslednje:
+    \begin{trditev}
+        Število $0,23571113 \dots$ je iracionalno.
+    \end{trditev}
+    %Za dokaz te trditve bomo potrebovali različico Dirichletovega izreka, ki pravi:
+    \pause
+    \begin{izrek}[Dirichletov izrek]
+        \label{Dirichletov izrek}
+        V vsakem zaporedju $ \lbrace an + b \rbrace_{n \in \N_0}$ naravnih števil, kjer sta $a$ in $b$
+        tuji si naravni števili, je neskončno praštevil.
+    \end{izrek}
+    \pause
+    %Najprej prilagodimo Dirichletov izrek za našo potrebo
+    \emph{Dokaz:} Naj bo $s \geq$ poljubno celo število
+    
+    Po Dirichletovem izreku $ \{10^{s+1}k + 1\}$, $k \in \N$ vsebuje neskončno praštevil.
+    %V Dirichletovem izreku vzemimo za a=10^{s+1} in za b=1
+    % Ti števili sta si res tuji, zato bo to vredu
+    \pause
+    Obstajajo praštevila oblike:
+    \[(k)\underbrace{00 \dots}_{s}1\]
+    \pause
+    Taka števila obstajajo za $\forall s \geq 0$.
+    %Torej če večamo število s se bo večalo tudi število ničel, ki mu sledi ena enica
+    %Ponazorimo s primerom
+    % k_11 k_201 k_3001 k_40001... kjer so k_i neka naravna števila -> vedno več bo ničel
+    $0,2357\dots$ je sestavljeno iz blokov takšne oblike, zato ne bo periodično.
+    \qed
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{Decimalna števila z naraščajočimi bloki}
+    % Do zdaj smo dokazali, da je decimalno število, ki ima za bloke zaporedje praštevil iracionalno
+    % Zdaj pa nas zanima kaj lahko povemo o decimalnih številih, ki so sestavljena iz blokov
+    % za neko drugo naraščajoče zaporedje
+    \pause
+    Naj bo $1 \leq a_1 < a_2 < \dots $ strogo naraščajoče zaporedje celih števil. 
+    Označimo: \[Dec\{a_k\} = 0,(a_1)(a_2)(a_3)... \  \ ;  a_k \in \Z \ k \in \N \]
+    \pause
+    % Za začetek povejmo izrek, ki nam bo podal pogoj pod katerim bo tako decimalno število iracionalno
+
+    \begin{izrek}
+        Če za strogo naraščajoče zaporedje celih števil $\{a_i\}_{i \in \N}$ velja 
+        \[ \sum_{i=1}^{\infty} \frac{1}{a_i} = \infty ,\]
+        potem je $Dec\{a_k\}$ iracionalno.
+    \end{izrek}
+
+\end{frame}
+
+\begin{frame}
+    Ali število $0,23571113\dots$ zadošča pogoju izreka?
+    \pause
+    % V bistvu nas zanima ali bo veljalo, da naslednja vrsta konvergira
+    \[
+        \sum_{p \ \text{praštevilo}}\frac{1}{p} =
+        \frac{1}{2} + \frac{1}{3} + \frac{1}{5} + \frac{1}{7} + \dots \overset{?}{=} \infty \]
+    \pause
+    Divergenco vrste $\sum_{p \ \text{praštevilo}}\frac{1}{p}$ je leta 1737 dokazal Leonhard Euler.
+
+\end{frame}
+
+
+
+
+\end{document}
