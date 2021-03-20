@@ -61,7 +61,7 @@ le z neskončno neperiodičnimi decimalkami.
 
 Zanimalo nas bo pa ravno obratno. Kaj nam lahko decimalni zapis realnega števila $x$ pove o njegovi racionalnosti
 oz.\ iracionalnosti. \\
-OPOMBA: Zaradi poenostavitve privzemimo, da velja $ 0 \le x \le 1$.
+OPOMBA: Zaradi poenostavitve privzemimo, da velja $ 0 < x < 1$.
 
 % Včasih pa iz zapisa decimalnega števila, z neskončno števkami ne moremo razbrati ali je periodično on nekega člena dalje.
 % Zanimalo nas bo kako lahko v takem primeru ugotovimo ali je število racionalno ali iracionalno.
@@ -70,7 +70,7 @@ V ta namen podajmo naslednjo definicijo.
 
 \begin{definicija}
     \label{defincija blokov}
-    Naj bo $x$ realno število, $ 0 \le x \le 1$, podano z decimalnim zapisom: 
+    Naj bo $x$ realno število, $ 0 < x < 1$, podano z decimalnim zapisom: 
     \[ 
         \begin{split}
             x & = \sum^n_{i=1} c_i 10^{-i} = \\
@@ -93,6 +93,8 @@ V ta namen podajmo naslednjo definicijo.
 Poljubno decimalno število lahko razumemo kot zaporedje blokov celih števil.
 Tako je na primer število $0,11223344 \cdots$ zaporedje blokov $(nn)$,
 kjer je $n \in \N$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{O številu $0,23571113 \dots$}
 
@@ -118,8 +120,10 @@ Za dokaz te trditve bomo potrebovali različico \textbf{Dirichletovega izreka}, 
 {\em Dokaz trditve:\/} Naj bo $s \geq 0$ celo število. Po izreku \ref{Dirichletov izrek} vsako zaporedje
 $ \{10^{s+1}k + 1\}$, $k \in \N$ vsebuje neskončno praštevil. Torej obstajajo praštevila
 oblike $(k)\underbrace{00 \dots}_{s}1$, kjer števkam števila $k$ sledi $s$ ničel ter ena enica. 
+
 Decimalno število $0,23571113\dots$ očitno vsebuje vse bloke take oblike za $\forall s \geq 0$. Z večanjem števila
 $s$ narašča tudi število ničel v posameznem bloku, kar pomeni, da po še tako pozni decimalki zapis ne bo periodičen.
+
 \qed
 
 %% morda podamo še en dokaz???
@@ -135,7 +139,7 @@ Opazimo, da je to število
 sestavljeno iz zaporedja blokov praštevil. Zanima nas kakšni morajo biti bloki iz katerega je sestavljeno decimalno
 število, da bo iracionalno. 
 
-Naj bo $1 \leq a_1 \le  a_2 \le \dots $ strogo naraščajoče zaporedje celih števil. 
+Naj bo $1 \leq a_1 < a_2 < \dots $ strogo naraščajoče zaporedje celih števil. 
 Označimo: \[Dec\{a_k\} = 0,(a_1)(a_2)(a_3)... \  \ ;  a_k \in \Z \ k \in \N \]
 Zanimajo nas lastnosti zaporedja $\{a_k\}$, ki nam zagotovijo, da bo $Dec\{a_k\}$ iracionalno.
 
@@ -180,18 +184,18 @@ Za dokaz izreka \ref{irac1} bomo potrebovali naslednjo lemo.
 \noindent
 {\em Dokaz leme \ref{lema bloki}:\/} Označimo delno vsoto naše vrste 
 \[ S_n = \frac{1}{x_1} + \frac{1}{x_2} + \dots \frac{1}{x_n} \ . \]
-Naj bo $t \in \N $ tak, da velja $x_{t-1} \le 10^s \leq x_t$. Število števk bloka $(b) = (b_1b_2b_3 \dots b_s)$
+Naj bo $t \in \N $ tak, da velja $x_{t-1} < 10^s \leq x_t$. Število števk bloka $(b) = (b_1b_2b_3 \dots b_s)$
 je očitno $s$, število $10^s$ pa ima $s+1$ števk, kar pomeni, da imajo vsi $x_i$ za $i \geq t$
 več števk kot je dolžina bloka. Delno vsoto sedaj preoblikujemo v
 \[ S_n = \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}(\frac{1}{\frac{x_{t + 1}}{10^s}} + \dots + \frac{1}{\frac{x_n}{10^s}})
-    \le  \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) ,
+    \leq \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) ,
 \]
-kjer smo v neenakosti upoštevali, da za poljuben $y \ge 0$ velja $y \ge \lfloor y \rfloor$.
+kjer smo v neenakosti upoštevali, da za poljuben $y > 0$ velja $y \geq \lfloor y \rfloor$.
 
-Ker za vsak $\ t \le i \leq n$ velja $10^s \leq x_i$, bo $\lfloor \frac{x_i}{10^s} \rfloor$ pozitivno celo število.
+Ker za vsak $\ t < i \leq n$ velja $10^s \leq x_i$, bo $\lfloor \frac{x_i}{10^s} \rfloor$ pozitivno celo število.
 To število lahko interpretiramo kot $x_i$ brez zadnjih $s$ števk. Ker vsi $x_i \in X$
 ne vsebujejo bloka $(b)$, ga očitno ne vsebuje niti njegovih prvih nekaj števk. Od tod sledi, da 
-$ \forall x_i, \ t \le i \leq n \ \exists x_y \in X$ tako da $ x_y = \lfloor \frac{x_i}{10^s} \rfloor$.
+$ \forall x_i, \ t < i \leq n \ \exists x_y \in X$ tako da $ x_y = \lfloor \frac{x_i}{10^s} \rfloor$.
 
 Novo nastala števila, pa so si lahko med seboj enaka. Tako bi na primer za $s=2$ veljalo 
 $ \lfloor\frac{12345}{10^2}\rfloor = \lfloor \frac{12387}{10^2}\rfloor$.
@@ -199,19 +203,19 @@ Opazimo, da se blok $(b_1b_2b_3 \dots b_s)$ pojavi v vsaj eni od prvih $10^s$ na
 Torej lahko poljuben $x_j \in X$ zadošča za največ $10^s - 1$ vrednosti $\lfloor \frac{x_i}{10^s} \rfloor$.
 
 Po zgornjem premisleku lahko sedaj ocenimo izraz 
-$(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) \le (10^s - 1)S_n$.
+\[(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) < (10^s - 1)S_n.\]
 Če to oceno uporabimo na delni vsoti, dobimo:
 \[
     \begin{split}
-    S_n &\le \sum_{i=1}^t \frac{1}{x_i} + (10^s - 1)10^{-s}S_n \\
-    S_n &\le 10^s \sum_{i=1}^t \frac{1}{x_i}
+    S_n &< \sum_{i=1}^t \frac{1}{x_i} + (10^s - 1)10^{-s}S_n \\
+    S_n &< 10^s \sum_{i=1}^t \frac{1}{x_i}
     \end{split}
     \]
 
 %% BOLJŠE RAZLOŽI TALE SKLEPP!!!
 Desna stran neenačbe je neodvisna od $n$, zato vrsta konvergira.
+
 \qed
-\\
 
 \noindent
 {\em Dokaz izreka \ref{irac1}:\/} Naj bo $\{a_i\}_{i\in \N}$ strogo naraščajoče zaporedje
@@ -247,39 +251,136 @@ Z uporabo integralskega kriterija za konvergenco vrst lahko preverimo, da pogoj 
 za tako zaporedje ne bo izpolnjen:
 
 $\frac{1}{e^{\sqrt{x}}}$ je zvezna, pozitivna in padajoča na $[1, \infty)$ zato lahko uporabimo
-integralski kriterij.
+integralski kriterij za konvergenco vrst.
 \[
     \begin{split}
     \int_1^{\infty}\frac{1}{e^{\sqrt{x}}}dx &= 2e^{-\sqrt{x}}(- \sqrt{x} - 1) \big|_1^{\infty} = \\
     &= -\frac{4}{e}
     \end{split}
 \]
-Zgornji integral konvergira, zato bo tudi vrsta $\sum_1^{\infty}\frac{1}{e^{\sqrt{x}}}$ bo zato konvergentna in s tem bo konvergirala tudi $\sum_1^{\infty}\frac{1}{a_k}$.
+Zgornji integral konvergira, zato bo tudi vrsta $\sum_1^{\infty}\frac{1}{e^{\sqrt{x}}}$ konvergentna in s tem tudi $\sum_1^{\infty}\frac{1}{a_k}$.
 
 V nadaljevanju bomo pokazali, da je $Dec\{a_k\}$ iracioanlno, tudi kadar $\{a_k\}$ narašča kot $e^{\sqrt{k}}$.
 %% tu malo bolj poveži z besedilom
 % podaj primer ki velja za posledico a ne velja za izrek
 
 \begin{izrek}
-    Naj bo $Dec\{a_k\} \in \Q$. Potem obstaja $x \in \R, \ x \ge 1$ in pozitivna konstanta $C$,
+    \label{izrek1clanek2}
+    Naj bo $Dec\{a_k\} \in \Q$. Potem obstaja $x \in \R, \ x > 1$ in pozitivna konstanta $C$,
     da velja $a_k \geq Cx^k$ za vsak $k \geq 1$.
 \end{izrek}
 
 Izrek pove, da če je $Dec\{a_k\}$ racionalno, potem zaporedje $a_k$ narašča vsaj eksponentno.
 
 \begin{posledica}
+    \label{posledica}
     Predpostavimo, da velja
     \[
         \sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty\]
-    za vsak $y \ge 1$. Potem je decimalno število $Dec\{a_k\}$ iracionalno.
+    za vsak $y > 1$. Potem je decimalno število $Dec\{a_k\}$ iracionalno.
 \end{posledica}
 
 Zgornja posledica je močnejša kot izrek \ref{irac1}. Pogoj iz izreka \ref{irac1} 
 $(\sum_{i=1}^{\infty} \frac{1}{a_i} = \infty)$ očitno implicira
-pogoj iz zgornje posledice $(\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty , \ \forall y \ge 1)$.
-Po drugi strani pa bi 
+pogoj iz zgornje posledice $(\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty , \ \forall y > 1)$.
+Po drugi strani pa bo iz posledice sledilo, da so $Dec\{a_k\}$ iracionalna tudi za zaporedja
+$\{a_k\}$, ki naraščajo kot $e^{\sqrt{k}}$, oz. kot $e^{k^s}$ za $0 < s < 1$:
 
+S korenskim kriterijem preverimo konvergenco.
+\[
+    r = \lim_{k \rightarrow \infty}\sqrt[k]{\frac{y^k}{e^{\sqrt{k}}}} = \lim_{k \rightarrow \infty}\frac{y}{e^{\frac{1}{\sqrt{k}}}}
+    = y
+\]
+Po predpostavki iz posledice je $y > 1$, zato vrsta divergira in bo zato $Dec\{a_k\}$ iracionalno.
+\\
 
+\noindent
+{\em Dokaz posledice \ref{posledica}:\/}
+Dokazujemo s protislovjem. Predpostavimo, da je $Dec\{a_k\} \in \Q$.
+Po izreku \ref{izrek1clanek2} obstaja realno število $x > 1$ in konstanta $C>0$, da velja
+$a_k \geq Cx^k \ \forall k \geq 1$. Ta izraz preoblikujemo in dobimo:
+\[
+    \frac{\sqrt{x}^k}{a_k} \leq \frac{1}{C\sqrt{x}^k}\] 
+Od tod sledi
+\[ \sum_{k=1}^{\infty} \frac{\sqrt{x}^k}{a_k} \leq C^{-1} \sum_{k=1}^{\infty} \frac{1}{\sqrt{x}^k} < \infty.\]
+Desna vsota je ravno geometrijska vrsta, ki bo konvergirala saj je $x > 1$ in s tem $\sqrt{x} > 1$.
+To pa je v protislovjem s predpostavko, ki pravi da $\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty \ \forall y>1$.
+Torej bo $Dec\{a_k\}$ iracioanlno.
 
+\qed
+
+{\em Dokaz izreka \ref{izrek1clanek2}:\/} Predpostavimo, da $Dec\{a_k\} = 0,(a_1)(a_2)\dots \in \Q$, torej bo 
+periodično od nekega člena dalje. Naj bo
+$(b_1b_2 \dots b_p), \ 0 \leq b_i \leq 9 \ \forall i = 1, \dots 9$, perioda in naj bo
+$(a_m)$ prvi blok, ki se pojavi v periodičnem delu decimalnega zapisa.
+
+Najprej dokažimo, da ima blok $(a_{k+p})$ vsaj eno števko več kot blok $(a_k)$ za $\forall k \geq m$.
+Predpostavimo, da imata $(a_{k+p})$ in $(a_k)$ oba po $N$ števk. 
+Ker je zaporedje $\{a_k\}$ strogo naraščajoče bodo imeli vsi $a_k, a_{k+1}, \dots a_{k+p}$ $N$ števk.
+Število $(a_k)(a_{k+1})\dots (a_{k+p-1})$ ima torej $Np$ števk. Ker pa je perioda enaka p,
+bo od tod sledilo, da je $a_k = a_{k+p}$, kar ne more biti res, saj je $\{a_k\}$ strogo naraščajoče.
+%%ali bi morala tukaj morda dati en primer??
+
+Sledi, da ima $a_{k+ 2p}$ vsaj eno števko več kot $a_{k+p}$, in zato vsaj dve števki več kot $a_k$
+za $\forall k \geq m$.
+Torej velja, da je $a_{k+2p} \geq 10 a_k$. Z indukcijo lahko dokažemo, da je 
+\[ a_{k+2np} \geq 10^n a_k; \ \forall k \geq m, \ n \in \N.\]
+
+Vzemimo sedaj poljuben $l \geq m$ in označimo $n := \lfloor \frac{l-m}{2p} \rfloor$
+Veljalo bo:
+\begin{equation}\label{enacba1}
+    a_l \geq a_{m+2np} \geq 10^n a_m \geq 10 ^{\frac{l-m-2p}{2p}}a_m
+\end{equation}
+Dokažimo vsak neenačaj posebaj.
+
+Za dokaz prve neenakosti si poglejmo indekse. 
+\[
+    \begin{split}
+    m + 2np &= m + 2 \bigg\lfloor \frac{l-m}{2p}\bigg\rfloor p \\
+    &\leq m + 2\bigg(\frac{l-m}{2p}\bigg)p \\
+    &= m + l - m = l
+    \end{split}
+    \] 
+Ker je $\{a_k\}$ strogo naraščajoče bo sledilo $a_{m+2np} \leq a_l$.
+Drugi neenačaj sledi po prejšnji ugotovitvi, da je $a_{k+2np} \geq 10^n a_k$.
+Za tretjo neenakost pa podrobneje poglejmo eksponenta števila $10$. 
+\[
+    n = \bigg\lfloor \frac{l-m}{2p}\bigg\rfloor \geq \frac{l-m}{2p} - 1,
+     \]
+saj po pravilih za računanje s celim delom relanega šetvila velja $x < \lfloor x\rfloor + 1$.
+
+Naj bo sedaj $C' := 10^{-\frac{m + 2p}{2p}}$ in $x := 10^{\frac{1}{2p}}$.
+\begin{equation}\label{enacba2}
+     C'x^l = 10^{-\frac{m + 2p}{2p}} \cdot 10^{\frac{l}{2p}} = 10 ^{\frac{l-m-2p}{2p}}
+     \leq 10 ^{\frac{l-m-2p}{2p}} a_m,
+\end{equation}
+ker je $\{a_k\}$ zaporedje pozitivnih celih števil in bo zato $a_m \geq 1$.
+
+Če sedaj združimo neeančbi \ref{enacba1} in \ref{enacba2} dobimo 
+$a_l \geq C'x^l; \ \forall l \geq m$. Sedaj zmanšajmo $C'$ na $C>0$, da bo neenakost veljala
+za vse $k \geq 1$.
+%Torej smo dobili $x>1$ in $C>0$, da $a_k \geq Cx^k; \ \forall k \geq 1$.
+
+\qed
+
+\section*{Angleško-slovenski slovar strokovnih izrazov}
+
+\geslo{decimal fraction}{desetiški ulomek}
+
+\geslo{Dirichlet's theorem}{Dirichletov izrek}
+
+\geslo{floor function}{celi del števila}
+
+\geslo{integral test}{integralski kriterij}
+
+\geslo{iracioanl number}{iracionalno število}
+
+\geslo{prime number}{praštevilo}
+
+\geslo{root test}{korenski kriterij}
+
+\geslo{racional number}{racionalno število}
+
+\geslo{sequence}{zaporedje}
 
 \end{document}
