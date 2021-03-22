@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.11)  21 MAR 2021 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.11)  22 MAR 2021 18:43
 entering extended mode
 **c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex
 (c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex
@@ -167,6 +167,8 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\icomma.sty"
+Package: icomma 2002/03/10 v2.0 (WaS)
 )
 \c@izrek=\count102
 \c@trditev=\count103
@@ -178,19 +180,19 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
  (c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.aux)
 \openout1 = `IracionalniDesetiskiUlomki.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 38.
  ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
@@ -240,123 +242,123 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 42.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 43.
  ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 42.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 43.
  ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 42.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 43.
  ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 42.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 43.
  ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 42.
+(Font)              <14.4> on input line 43.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 42.
+(Font)              <10> on input line 43.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 42.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+(Font)              <7> on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
  ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 52.
+(Font)              <12> on input line 53.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <8> on input line 53.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 53.
  [1
 
 {C:/Users/gajaj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 99.
+(Font)              <17.28> on input line 100.
  [2]
-Overfull \hbox (7.85031pt too wide) detected at line 192
+Overfull \hbox (7.85031pt too wide) detected at line 193
 \OML/lmm/m/it/12 S[] \OT1/lmr/m/n/12 = [] + [] [] + 10[]([] + [] + []) \OMS/lmsy/m/n/12  [] \OT1/lmr/m/n/12 + [] [] + 10[]([] + [] + [])\OML/lmm/m/it/12 ;
  []
 
 [3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 296--299
+Underfull \hbox (badness 10000) in paragraph at lines 304--307
 
  []
 
 
-Overfull \hbox (14.15787pt too wide) in paragraph at lines 300--305
+Overfull \hbox (14.15787pt too wide) in paragraph at lines 319--324
 \T1/lmr/m/it/12 Dokaz po-sle-dice 1[]: \T1/lmr/m/n/12 Do-ka-zu-jemo s pro-ti-slov-jem. Pred-po-sta-vimo, da je $\OML/lmm/m/it/12 Dec\OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 a[]\OMS/lmsy/m/n/12 g 2
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
 
  []
 
 [7]
-Underfull \hbox (badness 2894) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 420--422
 []\T1/lmr/m/n/12 A. McD. Mer-cer, \T1/lmr/m/it/12 A note on some ir-ra-ti-o-nal de-ci-mal frac-ti-ons\T1/lmr/m/n/12 ,
  []
 
 [8] (c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.aux) ) 
 Here is how much of TeX's memory you used:
- 3699 strings out of 492452
- 50616 string characters out of 3120063
- 124848 words of memory out of 3000000
- 7971 multiletter control sequences out of 15000+200000
+ 3709 strings out of 492452
+ 50905 string characters out of 3120063
+ 124929 words of memory out of 3000000
+ 7977 multiletter control sequences out of 15000+200000
  61309 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,19n,30p,361b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,19n,30p,361b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.pdf (8 pages, 234356 bytes).
+Output written on c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.pdf (8 pages, 236908 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

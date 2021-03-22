@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 
 \usepackage{url}
+\usepackage{icomma}
 
 
 \def\N{\mathbb{N}} % mnozica naravnih stevil
@@ -42,7 +43,7 @@ Oddelek za matematiko}
 \maketitle
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% UVOD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Uvod}
 V tem dokumentu bomo obravnavali realna števila zapisana v obliki decimalnega zapisa.
@@ -94,7 +95,7 @@ Poljubno decimalno število lahko razumemo kot zaporedje blokov celih števil.
 Tako je na primer število $0,11223344 \cdots$ zaporedje blokov $(nn)$,
 kjer je $n \in \N$.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% O ŠTEVILU 0,23571113 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{O številu $0,23571113 \dots$}
 
@@ -128,7 +129,7 @@ $s$ narašča tudi število ničel v posameznem bloku, kar pomeni, da po še tak
 
 %% morda podamo še en dokaz???
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%% DECIMALNA ŠT Z NARAŠČAJOČIMI BLOKI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Decimalna števila z naraščajočimi bloki}
 
@@ -163,7 +164,7 @@ Za dokaz izreka \ref{irac1} bomo potrebovali naslednjo lemo.
 
 \begin{lema}
     Naj bo $(b) = (b_1b_2b_3 \dots b_s)$ blok števil. Z $X = X(b_1b_2b_3 \dots b_s)$ označimo
-    naraščajoče zaporedje pozitivnih celih števil, ki ne vsebujejo bloka števil (b). Potem 
+    zaporedje naravnih števil, ki ne vsebujejo bloka števil (b). Potem 
     \[ \sum_{x \in X}^{\infty} \frac{1}{x}\] konvergira.
 \end{lema}
 
@@ -179,10 +180,10 @@ Za dokaz izreka \ref{irac1} bomo potrebovali naslednjo lemo.
         \end{split} \]
 \end{opomba}
 
-% MORDA DODAJ DEFINICIJO CELEGA DELA REALNEGA ŠTEVILA
-
+%------------------------ DOKAZ LEME --------------------------------------------
 \noindent
-{\em Dokaz leme \ref{lema bloki}:\/} Označimo delno vsoto naše vrste 
+{\em Dokaz leme \ref{lema bloki}:\/} 
+Označimo delno vsoto naše vrste 
 \[ S_n = \frac{1}{x_1} + \frac{1}{x_2} + \dots \frac{1}{x_n} \ . \]
 Naj bo $t \in \N $ tak, da velja $x_{t-1} < 10^s \leq x_t$. Število števk bloka $(b) = (b_1b_2b_3 \dots b_s)$
 je očitno $s$, število $10^s$ pa ima $s+1$ števk, kar pomeni, da imajo vsi $x_i$ za $i \geq t$
@@ -198,12 +199,18 @@ ne vsebujejo bloka $(b)$, ga očitno ne vsebuje niti njegovih prvih nekaj števk
 $ \forall x_i, \ t < i \leq n \ \exists x_y \in X$ tako da $ x_y = \lfloor \frac{x_i}{10^s} \rfloor$.
 
 Novo nastala števila, pa so si lahko med seboj enaka. Tako bi na primer za $s=2$ veljalo 
-$ \lfloor\frac{12345}{10^2}\rfloor = \lfloor \frac{12387}{10^2}\rfloor$.
+$ \lfloor\frac{12345}{10^2}\rfloor = \lfloor \frac{12387}{10^2}\rfloor = 123$.
+
 Opazimo, da se blok $(b_1b_2b_3 \dots b_s)$ pojavi v vsaj eni od prvih $10^s$ naravnih števil.
-Torej lahko poljuben $x_j \in X$ zadošča za največ $10^s - 1$ vrednosti $\lfloor \frac{x_i}{10^s} \rfloor$.
+Torej lahko poljuben $x_j \in X$ zadošča za največ $10^s - 1$ možnih $x_i$, kjer $\lfloor \frac{x_i}{10^s} \rfloor = x_y$.
+V zgornjem primeru (za $s=2$) torej število $123$ zadošča za vsa števila $123 \square \square$
+kjer lahko na zadnji dve mesti postavimo poljubno dvomestno število, razen bloka $b_1b_2$.
+Takih števil pa je ravno $10^2 - 1$.
 
 Po zgornjem premisleku lahko sedaj ocenimo izraz 
 \[(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) < (10^s - 1)S_n.\]
+S pomnožitvijo $(10^s - 1)$ s $S_n$ smo tako zagotovo zajeli vse člene na levi strani neenakosti
+z upoštevanjem vseh možnih ponovitev v vrednostih $\lfloor\frac{x_i}{10^s}\rfloor$.
 Če to oceno uporabimo na delni vsoti, dobimo:
 \[
     \begin{split}
@@ -217,6 +224,7 @@ Desna stran neenačbe je neodvisna od $n$, zato vrsta konvergira.
 
 \qed
 
+% ---------------------- DOKAZ IZREKA 1 ---------------------------------------
 \noindent
 {\em Dokaz izreka \ref{irac1}:\/} Naj bo $\{a_i\}_{i\in \N}$ strogo naraščajoče zaporedje
 celih števil za katero velja $\sum_{i=1}^{\infty}\frac{1}{a_i} = \infty$. Izrek bomo dokazali
@@ -229,7 +237,7 @@ Definirajmo blok $(c)$ dolžine $2s$, tak da velja: če je $(b) = (11 \cdots 1)$
 iz samih dvojic, v nasprotnem primeru pa naj bo $(c)$ iz samih enic.
 
 Naj bo $Y = Y(c_1, c_2, \dots, c_{2s})$ zaporedje naravnih števil, ki ne vsebuje bloka $(c)$.
-Razdelimo našo vsoto glede na vsbovanost v $Y$:
+Razdelimo našo vsoto glede na vsbovanost členov $a_i$ v $Y$:
 \[
     \sum_{i=1}^{\infty} \frac{1}{a_i} = \sum_{a \in Y}\frac{1}{a} + \sum_{a \notin Y} \frac{1}{a}
     \]
@@ -246,26 +254,26 @@ Blok $(b)$ se zato ne bo ponavljal v neskončnosti, posledično $Dec\{a_i\}$ ne 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Dokazan izrek nam poda pogoj za katerega bo $Dec\{a_k\}$ iracioanlno, vendar nam ta izrek
-ne pove nič o iracionalnosti na primer $Dec\{k^2\}$, saj $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
+Dokazan izrek nam poda kriterij iracionalnosti števila $Dec\{a_k\}$,
+ki pa odpove za marsikatero zaporedje $\{a_k\}$.
+Tako na primer kriterij ne pove nič o iracionalnosti števila $Dec\{k^2\}$, saj $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
 
 Predpostavimo, da zaporedje $a_k$ narašča kot $e^{\sqrt{k}}$.
 Z uporabo integralskega kriterija za konvergenco vrst lahko preverimo, da pogoj izreka \ref{irac1}
 za tako zaporedje ne bo izpolnjen:
 
-$\frac{1}{e^{\sqrt{x}}}$ je zvezna, pozitivna in padajoča na $[1, \infty)$ zato lahko uporabimo
-integralski kriterij za konvergenco vrst.
+($\frac{1}{e^{\sqrt{x}}}$ je zvezna, pozitivna in padajoča na $[1, \infty)$ zato
+integralski kriterij lahko uporabimo)
 \[
     \begin{split}
     \int_1^{\infty}\frac{1}{e^{\sqrt{x}}}dx &= 2e^{-\sqrt{x}}(- \sqrt{x} - 1) \big|_1^{\infty} = \\
     &= -\frac{4}{e}
     \end{split}
 \]
-Zgornji integral konvergira, zato bo tudi vrsta $\sum_1^{\infty}\frac{1}{e^{\sqrt{x}}}$ konvergentna in s tem tudi $\sum_1^{\infty}\frac{1}{a_k}$.
+Zgornji integral konvergira, zato bo tudi vrsta $\sum_1^{\infty}\frac{1}{e^{\sqrt{x}}}$ konvergentna
+in s tem tudi vrsta $\sum_1^{\infty}\frac{1}{a_k}$.
 
 V nadaljevanju bomo pokazali, da je $Dec\{a_k\}$ iracioanlno, tudi kadar $\{a_k\}$ narašča kot $e^{\sqrt{k}}$.
-%% tu malo bolj poveži z besedilom
-% podaj primer ki velja za posledico a ne velja za izrek
 
 \begin{izrek}
     \label{izrek1clanek2}
@@ -296,6 +304,17 @@ S korenskim kriterijem preverimo konvergenco.
 \]
 Po predpostavki iz posledice je $y > 1$, zato vrsta divergira in bo zato $Dec\{a_k\}$ iracionalno.
 \\
+
+\begin{zgled}
+    S pomočjo posledice \ref{posledica} lahko sedaj preverimo ali je $Dec\{k^2\}$ iracionalno.
+    Po posledici bo število $0,149162536\dots$ iracionalno, če bo $\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty$
+    za vsak $y > 1$. Uporabimo kvocientni kriterij in preverimo konvergenco vrste.
+    \[
+        L = \lim_{k \rightarrow \infty} \frac{\frac{y^{k+1}}{(k+1)^2}}{\frac{y^k}{k^2}}
+        = y \lim_{k \rightarrow \infty} \big (\frac{k}{k + 1}\big)^2 = y > 1
+    \]
+    Vrsta divergira, zato bo $Dec\{k^2\} \in \R \setminus \Q$.
+\end{zgled}
 
 \noindent
 {\em Dokaz posledice \ref{posledica}:\/}
@@ -348,9 +367,9 @@ Ker je $\{a_k\}$ strogo naraščajoče bo sledilo $a_{m+2np} \leq a_l$.
 Drugi neenačaj sledi po prejšnji ugotovitvi, da je $a_{k+2np} \geq 10^n a_k$.
 Za tretjo neenakost pa podrobneje poglejmo eksponenta števila $10$. 
 \[
-    n = \bigg\lfloor \frac{l-m}{2p}\bigg\rfloor \geq \frac{l-m}{2p} - 1,
+    n = \bigg\lfloor \frac{l-m}{2p}\bigg\rfloor > \frac{l-m}{2p} - 1,
      \]
-saj po pravilih za računanje s celim delom relanega šetvila velja $x < \lfloor x\rfloor + 1$.
+saj po pravilih za računanje s celim delom relanega števila velja $x < \lfloor x\rfloor + 1$.
 
 Naj bo sedaj $C' := 10^{-\frac{m + 2p}{2p}}$ in $x := 10^{\frac{1}{2p}}$.
 \begin{equation}\label{enacba2}
@@ -360,7 +379,8 @@ Naj bo sedaj $C' := 10^{-\frac{m + 2p}{2p}}$ in $x := 10^{\frac{1}{2p}}$.
 ker je $\{a_k\}$ zaporedje pozitivnih celih števil in bo zato $a_m \geq 1$.
 
 Če sedaj združimo neeančbi \ref{enacba1} in \ref{enacba2} dobimo 
-$a_l \geq C'x^l; \ \forall l \geq m$. Sedaj zmanšajmo $C'$ na $C>0$, da bo neenakost veljala
+$a_l \geq C'x^l; \ \forall l \geq m$.
+Po potrebi zmanšajmo $C'$ na $C>0$, da bo neenakost veljala
 za vse $k \geq 1$.
 %Torej smo dobili $x>1$ in $C>0$, da $a_k \geq Cx^k; \ \forall k \geq 1$.
 
