@@ -6,6 +6,8 @@
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 
+\usepackage{icomma}
+
 \usetheme{Warsaw}
 
 \def\N{\mathbb{N}} % mnozica naravnih stevil
@@ -42,7 +44,7 @@ Oddelek za matematiko}
     \titlepage
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% UVOD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Kot že naslov predstavitve pove, bomo danes govorili o desetiških ulomkih.
 % Pa se za začetek spomnimo definicije.
@@ -67,12 +69,15 @@ Oddelek za matematiko}
     \pause
     \begin{itemize}
         \item racionalna števila: $5,6$;  $0,\overline{26}$
-        \item irracionalna števila: $\pi = 3,1415926535 \dots$
+        \item iracionalna števila: $\pi = 3,1415926535 \dots$
     \end{itemize}
 \end{frame}
 
 % No iz vsakega zapisa desetiškega ulomka z neskončno decimalkami pa ne moremo zagotovo razbrati
 % ali se po nekem členu decimalke periodično ponavljajo ali ne.
+% Naš glavni cilj tega predavanja bo ugtovoiti kako iz decimalnega zapisa razberemo ali je
+% število iracionalno.
+
 % Za pomoč pri obravnavi decimalnih števil, si poglejmo naslednjo definicijo.
 
 \begin{frame}
@@ -95,7 +100,8 @@ Oddelek za matematiko}
         $c_{i+j} = b_i$ za vse $i=1, 2, \dots s$. 
     \end{definicija}
 
-    % ta definicija je popolni formalizem. Čisto intuitivno si bomo blok predstavljali
+    % Ta definicija je popolni formalizem. 
+    % Čisto intuitivno si bomo blok predstavljali
     % kot zaporedje števk, ki je vsebovan (ali ne) v decimalnem zapisu.
 
     \pause
@@ -106,6 +112,7 @@ Oddelek za matematiko}
 
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%% O ŠTEVILU 0,23571113... %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
     \frametitle{O številu $0,23571113\dots$}
     Poljubno decimalno število lahko razumemo kot zaporedje blokov celih števil.
@@ -113,25 +120,28 @@ Oddelek za matematiko}
     %Poglejmo si konkreten primer, ki nam bo služil kot motivacija za naprej
     \pause
     \[0,235711131719\dots\]
-    % To število kot lahko prepoznate je decimalno število, ki je sestavljeno
-    % iz zaporedja blokov praštevil.
+    % Zdaj me zanima ali prepozna kdo zaporedje blokov iz katerega je sestavljeno to decimalno št.?
+    % To število kot lahko prepoznate je sestavljeno iz zaporedja blokov praštevil.
     \pause
-    %njegov zapis lahko ponazorimo kot:
+    % Njegov zapis lahko ponazorimo kot:
     \[0,(p_1)(p_2)(p_3)(p_4)\dots\]
     $\{p_i\}$ predstavlja zaporedje praštevil.
     \pause
     \newline
     \newline
+    % Za začetek se vprašajmo ali je to število iracionalno?
     Ali je to število iracionalno?
+
+    %Trdili bomo naslednje:
 
 \end{frame}
 
 \begin{frame}
     \frametitle{O številu $0,23571113\dots$}
-    %Trdimo naslednje:
     \begin{trditev}
         Število $0,23571113 \dots$ je iracionalno.
     \end{trditev}
+
     %Za dokaz te trditve bomo potrebovali različico Dirichletovega izreka, ki pravi:
     \pause
     \begin{izrek}[Dirichletov izrek]
@@ -154,23 +164,27 @@ Oddelek za matematiko}
     %Torej če večamo število s se bo večalo tudi število ničel, ki mu sledi ena enica
     %Ponazorimo s primerom
     % k_11 k_201 k_3001 k_40001... kjer so k_i neka naravna števila -> vedno več bo ničel
-    $0,2357\dots$ je sestavljeno iz blokov takšne oblike, zato ne bo periodično.
+    
+    $0,2357\dots$ je vsebuje vse bloke takšne oblike, zato ne bo periodično.
     \qed
 
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%% DECIMALNA ŠTEVILA Z NARAŠČAJOČIMI BLOKI %%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{frame}
     \frametitle{Decimalna števila z naraščajočimi bloki}
+
     % Do zdaj smo dokazali, da je decimalno število, ki ima za bloke zaporedje praštevil iracionalno
     % Zdaj pa nas zanima kaj lahko povemo o decimalnih številih, ki so sestavljena iz blokov
     % za neko drugo naraščajoče zaporedje
-    \pause
     Naj bo $1 \leq a_1 < a_2 < \dots $ strogo naraščajoče zaporedje celih števil. 
     Označimo: \[Dec\{a_k\} = 0,(a_1)(a_2)(a_3)... \  \ ;  a_k \in \Z \ k \in \N \]
     \pause
+
     % Za začetek povejmo izrek, ki nam bo podal pogoj pod katerim bo tako decimalno število iracionalno
 
-    \begin{izrek}
+    \begin{izrek}\label{izrek1clanek1}
         Če za strogo naraščajoče zaporedje celih števil $\{a_i\}_{i \in \N}$ velja 
         \[ \sum_{i=1}^{\infty} \frac{1}{a_i} = \infty ,\]
         potem je $Dec\{a_k\}$ iracionalno.
@@ -178,18 +192,119 @@ Oddelek za matematiko}
 
 \end{frame}
 
-\begin{frame}
+\begin{frame}\frametitle{Decimalna števila z naraščajočimi bloki}
+
     Ali število $0,23571113\dots$ zadošča pogoju izreka?
     \pause
-    % V bistvu nas zanima ali bo veljalo, da naslednja vrsta konvergira
+    
+    % Torej nas zanima ali bo veljalo, da naslednja vrsta konvergira
     \[
         \sum_{p \ \text{praštevilo}}\frac{1}{p} =
         \frac{1}{2} + \frac{1}{3} + \frac{1}{5} + \frac{1}{7} + \dots \overset{?}{=} \infty \]
     \pause
+    %Tega danes ne bomo dokazali je pa divergenco te vrste dokazal Euler leta 1737
+
     Divergenco vrste $\sum_{p \ \text{praštevilo}}\frac{1}{p}$ je leta 1737 dokazal Leonhard Euler.
 
 \end{frame}
 
+\begin{frame}\frametitle{Decimalna števila z naraščajočimi bloki}
+
+    % Za dokaz izreka bomo potrebovali naslednjo lemo
+    \begin{lema}
+        Naj bo $(b) = (b_1b_2b_3 \dots b_s)$ blok števil. Z $X = X(b_1b_2b_3 \dots b_s)$ označimo
+        zaporedje naravnih števil, ki ne vsebujejo bloka števil (b). Potem 
+        \[ \sum_{x \in X}^{\infty} \frac{1}{x}\] konvergira.
+    \end{lema}
+    \emph{Dokaz leme:}
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+\end{frame}
+
+\begin{frame}
+    \emph{Dokaz izreka:}
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+    \newline
+\end{frame}
+
+\begin{frame}
+    % Izrek nam poda kriterij za določanje iracionalnosti nekaterih decimalnih števil.
+
+    Izrek odpove za $Dec\{k^2\}$, saj $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
+    \pause
+    % V nadaljevanju želimo poiskati močnejši kriterij, ki nam bo povedal ali je dec št. iracionalno.
+
+    \begin{izrek}
+        Naj bo $Dec\{a_k\} \in \Q$. Potem obstaja $x \in \R, \ x > 1$ in pozitivna konstanta $C$,
+        da velja $a_k \geq Cx^k$ za vsak $k \geq 1$.
+    \end{izrek}
+    \pause
+    % Ta izrek nam pove, da če je decimalno št. zgrajeno iz blokov zaporedja a_k racionalno
+    % potem zaporedje a_k narašča vsaj eksponentno.
+
+    % Izreka ne bomo dokazali, če pa vas zanima dokaz si ga lahko pogledate na spletni učilnici
+    % kjer bo objavljen v moji seminarski.
+
+    % Bolj kot izrek pa nas bo zanimala naslednja posledica
+    \begin{posledica}\label{posledica}
+        Predpostavimo, da velja
+        \[
+            \sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty\]
+        za vsak $y > 1$. Potem je decimalno število $Dec\{a_k\}$ iracionalno.
+    \end{posledica}
+
+\end{frame}
+
+\begin{frame}
+    % Za to posledico velja naslednje
+    Posledica je močnejša kot izrek \ref{izrek1clanek1}:
+    \begin{itemize}
+        \item Pogoj iz izreka \ref{izrek1clanek1} 
+        $(\sum_{i=1}^{\infty} \frac{1}{a_i} = \infty)$ očitno implicira
+        pogoj iz zgornje posledice \ref{posledica}.
+        \pause
+        $(\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty , \ \forall y > 1)$.
+        \item Izreka \ref{izrek1clanek1} ne moremo uporabiti za zaporedja $\{a_k\}$, ki naraščajo kot $e^{\sqrt{k}}$,
+                saj vrsta $\sum_1^{\infty}\frac{1}{a_k}$ konvergira.
+            % uporabimo integralski kriterij in preverimo konvergenco za
+            \pause
+        \item Pogoj iz posledice \ref{posledica} je izpoljen za $Dec\{a_k\}$, kjer $\{a_k\}$ naraščajo kot $e^{\sqrt{k}}$.
+            % uporabimo korenski kriterij in preverimo konvergenco
+
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{zgled}
+        S pomočjo posledice lahko preverimo ali je $Dec\{k^2\} = 0,1491625\dots$ iracionalno.
+        \pause
+        
+        Preveriti moramo ali je \[\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty; \ \forall y > 1\]
+    \end{zgled}
+
+    % Tu uporabiš kvocientni kriterij in dokažeš
+
+\end{frame}
 
 
 
