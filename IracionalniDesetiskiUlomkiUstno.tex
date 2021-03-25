@@ -165,7 +165,7 @@ Oddelek za matematiko}
     %Ponazorimo s primerom
     % k_11 k_201 k_3001 k_40001... kjer so k_i neka naravna števila -> vedno več bo ničel
     
-    $0,2357\dots$ je vsebuje vse bloke takšne oblike, zato ne bo periodično.
+    $0,2357\dots$ vsebuje vse bloke takšne oblike, zato ne bo periodično.
     \qed
 
 \end{frame}
@@ -233,7 +233,15 @@ Oddelek za matematiko}
 \end{frame}
 
 \begin{frame}
+    % tu bo dokaz leme
+\end{frame}
+
+\begin{frame}
     \emph{Dokaz izreka:}
+    
+    $\{a_i\}_{i \in \N}$ strogo naraščajoče zaporedje celih števil
+    
+    dokazujemo: $\sum_{i=1}^{\infty} \frac{1}{a_i} = \infty \Rightarrow Dec\{a_k\} \in \R \setminus\Q$
     \newline
     \newline
     \newline
@@ -286,9 +294,9 @@ Oddelek za matematiko}
     \begin{itemize}
         \item Pogoj iz izreka \ref{izrek1clanek1} 
         $(\sum_{i=1}^{\infty} \frac{1}{a_i} = \infty)$ očitno implicira
-        pogoj iz zgornje posledice \ref{posledica}.
-        \pause
+        pogoj iz zgornje posledice \ref{posledica}
         $(\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty , \ \forall y > 1)$.
+        \pause
         \item Izreka \ref{izrek1clanek1} ne moremo uporabiti za zaporedja $\{a_k\}$, ki naraščajo kot $e^{\sqrt{k}}$,
                 saj vrsta $\sum_1^{\infty}\frac{1}{a_k}$ konvergira.
             % uporabimo integralski kriterij in preverimo konvergenco za
@@ -313,6 +321,11 @@ Oddelek za matematiko}
 
 \begin{frame}
     \emph{Dokaz posledice:}
+
+    dokazujemo: $\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty \Rightarrow Dec\{a_k\} \in \R \setminus \Q$
+    \newline
+    \newline
+    \newline
     \newline
     \newline
     \newline
