@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.11)  26 MAR 2021 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.11)  29 MAR 2021 15:36
 entering extended mode
 **c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex
 (c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex
@@ -282,84 +282,84 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {C:/Users/gajaj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 98.
+(Font)              <17.28> on input line 100.
  [2] [3]
-Overfull \hbox (7.85031pt too wide) detected at line 193
-\OML/lmm/m/it/12 S[] \OT1/lmr/m/n/12 = [] + [] [] + 10[]([] + [] + []) \OMS/lmsy/m/n/12  [] \OT1/lmr/m/n/12 + [] [] + 10[]([] + [] + [])\OML/lmm/m/it/12 ;
+Overfull \hbox (21.23972pt too wide) detected at line 196
+\OML/lmm/m/it/12 S[] \OT1/lmr/m/n/12 = [] + [] [] + 10[][][] + [] + [][] \OMS/lmsy/m/n/12  [] \OT1/lmr/m/n/12 + [] [] + 10[][][] + [] + [][]\OML/lmm/m/it/12 ;
  []
 
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 301--304
+Underfull \hbox (badness 10000) in paragraph at lines 309--313
 
  []
 
 
-Overfull \hbox (14.15787pt too wide) in paragraph at lines 316--321
+Overfull \hbox (14.15787pt too wide) in paragraph at lines 325--330
 \T1/lmr/m/it/12 Dokaz po-sle-dice 1[]: \T1/lmr/m/n/12 Do-ka-zu-jemo s pro-ti-slov-jem. Pred-po-sta-vimo, da je $\OML/lmm/m/it/12 Dec\OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 a[]\OMS/lmsy/m/n/12 g 2
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 424--426
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 433--435
 []\T1/lmr/m/n/12 A. McD. Mer-cer, \T1/lmr/m/it/12 A note on some ir-ra-ti-o-nal de-ci-mal frac-ti-ons\T1/lmr/m/n/12 ,
  []
 
@@ -373,7 +373,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  46i,19n,30p,361b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.pdf (8 pages, 237578 bytes).
+Output written on c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.pdf (8 pages, 237813 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

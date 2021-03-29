@@ -46,21 +46,23 @@ Oddelek za matematiko}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% UVOD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Uvod}
-V tem dokumentu bomo obravnavali realna števila zapisana v obliki decimalnega zapisa.
+V tem delu obravnavamo realna števila zapisana v obliki decimalnega zapisa.
 Spomnimo se definicije desetiških ulomkov ter decimalnega zapisa.
 
 \begin{definicija}
-    {\em Desetiški ulomek} je ulomek, katerega imenovalec je potenca števila $10$. Zapis desetiškega ulomka navadno
+    {\em Desetiški ulomek} je ulomek, katerega imenovalec je potenca števila $10$. 
+\end{definicija}
+
+Zapis desetiškega ulomka navadno
     nadomestimo z zapisom z decimalno vejico, ki mu pravimo {\em decimalni zapis}. Če ponazorimo s primerom, namesto 
     $ \frac{23}{1000}$ pišemo $0,023$.
-\end{definicija}
 
 Pri obravnavi številskih množic se že v srednji šoli spoznamo z razliko v decimalnem zapisu
 racionalnih in iracionalnih števil. Racionalna števila lahko zapišemo
 s končnim ali neskončnim periodičnim decimalnim zapisom, medtem ko je zapis iracionalnega števila možen 
 le z neskončno neperiodičnimi decimalkami.
 
-Včasih pa iz zapisa decimalnega števila, z neskončno števkami ne moremo razbrati ali je periodično on nekega člena dalje.
+Včasih pa iz zapisa decimalnega števila z neskončno števkami ne moremo razbrati, ali je periodično od nekega člena dalje.
 Zanimalo nas bo, kaj nam lahko v takem primeru decimalni zapis realnega števila $x$ pove o njegovi racionalnosti
 oz.\ iracionalnosti.
 Zaradi poenostavitve privzemimo, da velja $ 0 < x < 1$.
@@ -72,15 +74,15 @@ V ta namen podajmo naslednjo definicijo.
     Naj bo $x$ realno število, $ 0 < x < 1$, podano z decimalnim zapisom: 
     \[ 
         \begin{split}
-            x & = \sum^n_{i=1} c_i 10^{-i} = \\
-            & = 0,c_0c_1c_2 \cdots c_n ,
+            x & = \sum^{\infty}_{i=1} c_i 10^{-i} = \\
+            & = 0,c_1c_2c_3 \dots,
         \end{split}   
     \]
-    kjer so $0 \leq c_i \leq 9 \ \forall i = 1, \dots, s$.
+    kjer so $0 \leq c_i \leq 9$ za vse $i = 1, 2, \dots$.
     
-    Z $b$ označimo celo število sestavljeno iz zaporedja števk
+    Z $b$ označimo naravno število sestavljeno iz zaporedja števk
     $b_1b_2b_3 \dots b_s$, 
-    kjer je $s\geq 1$ in $0 \leq b_i \leq 9 \ \forall i = 1, \dots, s$.
+    kjer je $s\geq 1$ in $0 \leq b_i \leq 9$ za vse $i = 1, \dots, s$.
     Pravimo, da število $x$ {\em vsebuje blok števil $(b) = (b_1b_2b_3 \dots b_s)$}, če obstaja $j \geq 0$, da je 
     $c_{i+j} = b_i$ za vse $i=1, 2, \dots s$.
 \end{definicija}
@@ -100,9 +102,9 @@ kjer je $n \in \N$.
 Za začetek obravnavajmo število $0,23571113 \dots$, ki je zgrajeno iz zaporedja
 blokov praštevil. 
 Pri algebri smo letos dokazali Evklidov izrek, ki pravi, da je praštevil neskončno mnogo,
-zato to decimalno število ne bo končno. 
-Iz zapisa pa ne moremo razbrati ali 
-je po nekem členu decimalno število periodično, zato ni očitno ali je število racionalno.
+zato njegov decimalni zapis ne more biti končen. 
+Iz zapisa pa ne moremo razbrati, ali 
+je po nekem členu decimalno število periodično, zato ni očitno, ali je število racionalno.
 Trdimo naslednje:
 
 \begin{trditev}
@@ -119,8 +121,9 @@ Za dokaz te trditve bomo potrebovali različico Dirichletovega izreka \cite{Vog}
 \end{izrek}
 
 \noindent
-{\em Dokaz trditve:\/} Naj bo $s \geq 0$ celo število. Po izreku \ref{Dirichletov izrek} vsako zaporedje
-$ \{10^{s+1}k + 1\}$, $k \in \N$ vsebuje neskončno praštevil. Torej obstajajo praštevila
+{\em Dokaz trditve:\/} Naj bo $s \geq 0$ celo število. 
+Po izreku \ref{Dirichletov izrek} vsako zaporedje
+$ \{10^{s+1}k + 1\}_{k \in \N}$,  vsebuje neskončno praštevil. Torej obstajajo praštevila
 oblike $(k)\underbrace{00 \dots}_{s}1$, kjer števkam števila $k$ sledi $s$ ničel ter ena enica. 
 
 Decimalno število $0,23571113\dots$ očitno vsebuje vse bloke take oblike za vsak $s \geq 0$. Z večanjem števila
@@ -133,16 +136,16 @@ $s$ narašča tudi število ničel v posameznem bloku, kar pomeni, da po še tak
 
 \section{Decimalna števila z naraščajočimi bloki}
 
-V prejšnjem razdelku smo dokazali, da je decimalno število sestavljeno iz praštevilskih
-blokov iracionalno. Kaj pa lahko povemo za decimalno število sestavljeno iz poljubnih blokov?
+V prejšnjem razdelku smo dokazali, da je decimalno število, sestavljeno iz praštevilskih
+blokov, iracionalno. Kaj pa lahko povemo za decimalno število, sestavljeno iz poljubnih blokov?
 
-Naj bo $1 \leq a_1 < a_2 < \dots $ strogo naraščajoče zaporedje celih števil. 
-Označimo: \[Dec\{a_k\} = 0,(a_1)(a_2)(a_3)... \  \ ;  a_k \in \Z \ k \in \N. \]
+Naj bo $1 \leq a_1 < a_2 < \dots $ strogo naraščajoče zaporedje naravnih števil. 
+Označimo: \[Dec\{a_k\} = 0,(a_1)(a_2)(a_3)... \  \ ; k \in \N, \ a_k \in \N . \]
 Zanimajo nas lastnosti zaporedja $\{a_k\}$, ki nam zagotovijo, da bo $Dec\{a_k\}$ iracionalno.
 
 \begin{izrek}\label{irac1}
     
-    Če za strogo naraščajoče zaporedje celih števil $\{a_i\}_{i \in \N}$ velja 
+    Če za strogo naraščajoče zaporedje naravnih števil $\{a_i\}_{i \in \N}$ velja 
     \[ \sum_{i=1}^{\infty} \frac{1}{a_i} = \infty ,\]
     potem je $Dec\{a_k\}$ iracionalno.
 \end{izrek}
@@ -155,56 +158,57 @@ kar je leta 1737 dokazal Leonhard Euler v \cite{Eul}.
 
 \begin{zgled}
     Decimalno število $Dec\{7n\} = 0,714212835\dots (7n) \dots$ je iracionalno, saj
-    bo vrsta $\sum_{k=1}^{\infty}\frac{1}{7n} $ divergirala.
+    vrsta $\sum_{k=1}^{\infty}\frac{1}{7n} $ divergira.
 \end{zgled}
 
 Za dokaz izreka \ref{irac1} bomo potrebovali naslednjo lemo.
 
 \begin{lema}
     Naj bo $(b) = (b_1b_2b_3 \dots b_s)$ blok števil. Z $X = X(b_1b_2b_3 \dots b_s)$ označimo
-    zaporedje naravnih števil, ki ne vsebujejo bloka števil (b). Potem 
+    zaporedje vseh naravnih števil, ki ne vsebujejo bloka števil (b). Potem 
     \[ \sum_{x \in X}^{\infty} \frac{1}{x}\] konvergira.
 \end{lema}
 
 \begin{opomba}
     \label{lema bloki}
-    V lemi, v nasprotju z definicijo \ref{defincija blokov}, obravnavamo vsebovanost blokov v celih
-    in ne decimalnih številih. Definicijo v ta namen prilagodimo tako, da le spremenimo potenco števila
+    V lemi, v nasprotju z definicijo \ref{defincija blokov}, obravnavamo vsebovanost blokov v naravnih
+    in ne decimalnih številih. Definicijo zato prilagodimo tako, da le spremenimo potenco števila
     $10$ v vsoti. Celo število $x$ tako zapišemo kot 
     \[ 
         \begin{split}
             x & = \sum^n_{i=1} c_i 10^{n-i} = \\
-            & = c_0c_1c_2 \cdots c_n \ .
+            & = c_1c_2c_3 \cdots c_n \ .
         \end{split} \]
 \end{opomba}
 
 %------------------------ DOKAZ LEME --------------------------------------------
 \noindent
 {\em Dokaz leme \ref{lema bloki}:\/} 
-Označimo delno vsoto naše vrste 
+Označimo delno vsoto vrste 
 \[ S_n = \frac{1}{x_1} + \frac{1}{x_2} + \frac{1}{x_3} + \dots + \frac{1}{x_n} \ . \]
 Vzemimo tak $t \in \N $, da velja $x_{t-1} < 10^s \leq x_t$. Število števk bloka $(b) = (b_1b_2b_3 \dots b_s)$
 je očitno $s$, število $10^s$ pa ima $s+1$ števk, kar pomeni, da imajo vsi $x_i$ za $i \geq t$
 več števk kot je dolžina bloka. 
 
 Delno vsoto sedaj preoblikujemo v
-\[ S_n = \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}(\frac{1}{\frac{x_{t + 1}}{10^s}} + \dots + \frac{1}{\frac{x_n}{10^s}})
-    \leq \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) ,
+\[ S_n = \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}\bigg(\frac{1}{\frac{x_{t + 1}}{10^s}} + \dots + \frac{1}{\frac{x_n}{10^s}}\bigg)
+    \leq \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}\bigg(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}\bigg) ,
 \]
 kjer smo v neenakosti upoštevali, da za poljuben $y > 0$ velja $y \geq \lfloor y \rfloor$.
 
-Ker za vsak $\ t < i \leq n$ velja $10^s \leq x_i$, bo $\lfloor \frac{x_i}{10^s} \rfloor$ pozitivno celo število.
-To število lahko interpretiramo kot $x_i$ brez zadnjih $s$ števk. Ker vsi $x_i \in X$
-ne vsebujejo bloka $(b)$, ga očitno ne vsebuje niti njegovih prvih nekaj števk. 
-Od tod sledi, da za vsak $x_i, \ t < i \leq n$ obstaja $x_y \in X$,
+Ker za vsak $\ t < i \leq n$ velja $10^s \leq x_i$, je $\lfloor \frac{x_i}{10^s} \rfloor$ pozitivno celo število.
+To število lahko interpretiramo kot $x_i$ brez zadnjih $s$ števk. 
+Ker noben $x_i \in X$ ne vsebuje bloka $(b)$, 
+ga očitno ne vsebuje niti njegovih prvih nekaj števk. 
+Od tod sledi, da za vsak $x_i, \ t < i \leq n$, obstaja $x_y \in X$,
 tako da $ x_y = \lfloor \frac{x_i}{10^s} \rfloor$.
 
 Novo nastala števila, pa so si lahko med seboj enaka. Tako bi na primer za $s=2$ veljalo 
 $ \lfloor\frac{12345}{10^2}\rfloor = \lfloor \frac{12387}{10^2}\rfloor = 123$.
 
-Opazimo, da se blok $(b_1b_2b_3 \dots b_s)$ pojavi v vsaj eni od prvih $10^s$ naravnih števil.
+Opazimo, da se blok $(b_1b_2b_3 \dots b_s)$ pojavi v vsaj enem od prvih $10^s$ naravnih števil.
 Torej lahko poljuben $x_y \in X$ zadošča za največ $10^s - 1$ možnih $x_i$, kjer $\lfloor \frac{x_i}{10^s} \rfloor = x_y$.
-V zgornjem primeru (za $s=2$) torej število $123$ zadošča za vsa števila $123 \square \square$
+V zgornjem primeru (za $s=2$) torej število $123$ zadošča za vsa števila $123 \square \square$,
 kjer lahko na zadnji dve mesti postavimo poljubno dvomestno število, razen bloka $b_1b_2$.
 Takih števil pa je največ $10^2 - 1$.
 
@@ -214,11 +218,12 @@ S pomnožitvijo $(10^s - 1)$ s $S_n$ smo tako zagotovo zajeli vse člene na levi
 z upoštevanjem vseh možnih ponovitev v vrednostih $\lfloor\frac{x_i}{10^s}\rfloor$.
 Če to oceno uporabimo na delni vsoti, dobimo:
 \[
-    \begin{split}
-    S_n &< \sum_{i=1}^t \frac{1}{x_i} + (10^s - 1)10^{-s}S_n \\
-    S_n &< 10^s \sum_{i=1}^t \frac{1}{x_i}
-    \end{split}
-    \]
+    S_n < \sum_{i=1}^t \frac{1}{x_i} + (10^s - 1)10^{-s}S_n,
+\] 
+od koder sledi
+\[
+    S_n < 10^s \sum_{i=1}^t \frac{1}{x_i}.
+\]
 Desna stran neenačbe je neodvisna od $n$, zato vrsta konvergira.
 
 \qed
@@ -232,49 +237,50 @@ s protislovjem. Predpostavimo, da je $Dec\{a_i\} = 0,(a_1)(a_2) \dots \in \Q$. T
 To pomeni, da obstaja nek blok števil $(b) = (b_1b_2b_3 \dots b_s)$,
 ki se v decimalnem zapisu periodično ponavlja od nekega mesta dalje. 
 
-Definirajmo tak blok $(c)$ dolžine $2s$, da velja: če je $(b) = (11 \cdots 1)$, naj bo blok $(c)$
-iz samih dvojic, v nasprotnem primeru pa naj bo $(c)$ iz samih enic.
+Definirajmo tak blok $(c)$ dolžine $2s$, da velja: 
+če je $(b) = (\underbrace{11 \cdots 1}_{s})$, naj bo blok $(c) = (\underbrace{22\dots 2}_{2s})$, 
+v nasprotnem primeru pa naj bo $(c) = (\underbrace{11\dots 1}_{2s})$.
 
-Naj bo $Y = Y(c_1, c_2, \dots, c_{2s})$ zaporedje naravnih števil, ki ne vsebuje bloka $(c)$.
-Razdelimo našo vsoto glede na vsbovanost členov $a_i$ v $Y$:
+Naj bo $Y = Y(c_1, c_2, \dots, c_{2s})$ zaporedje vseh naravnih števil, 
+ki ne vsebuje bloka $(c)$.
+Razdelimo vsoto glede na vsebovanost členov $a_i$ v $Y$:
 \[
     \sum_{i=1}^{\infty} \frac{1}{a_i} = \sum_{a_i \in Y}\frac{1}{a_i} + \sum_{a_i \notin Y} \frac{1}{a_i}
     \]
 
-Po predpostavki vsota na levi strani enačaja divergira in po lemi vsota $\sum_{a \in Y}\frac{1}{a}$
-konvergira. Od tod sledi, da bo $\sum_{a \notin Y} \frac{1}{a}$ divergirala.
+Po predpostavki vrsta na levi strani enačaja divergira in po lemi vrsta $\sum_{a \in Y}\frac{1}{a}$
+konvergira. Od tod sledi, da vrsta $\sum_{a \notin Y} \frac{1}{a}$ divergira.
 To pomeni, da bo obstaja neskončno $a_i$ v $Dec\{a_i\} = 0,(a_1)(a_2) \dots$, ki vsebujejo blok 
 $(c_1c_2\dots c_{2s})$. Ta blok je dvakrat daljši kot blok $(b)$ in z drugačnimi števkami, zato se ne more
 zgoditi, da bi bil $(c)$ vsebovan v $(b)$ ali sestavljal njegove dele. 
-Blok $(b)$ se zato ne bo ponavljal v neskončnosti in posledično $Dec\{a_i\}$ ne more biti periodično.
+Blok $(b)$ se zato ne ponavlja v neskončnosti in posledično $Dec\{a_i\}$ ne more biti periodično.
 
 \qed
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Dokazan izrek nam poda kriterij iracionalnosti števila $Dec\{a_k\}$,
+Dokazan izrek poda kriterij iracionalnosti števila $Dec\{a_k\}$,
 ki pa odpove za marsikatero zaporedje $\{a_k\}$.
 Tako na primer kriterij ne pove nič o iracionalnosti števila $Dec\{k^2\}$, saj vrsta $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
 
 Predpostavimo, da zaporedje $a_k$ narašča kot $e^{\sqrt{k}}$.
-Z uporabo integralskega kriterija za konvergenco vrst lahko preverimo, da pogoj izreka \ref{irac1}
-za tako zaporedje ne bo izpolnjen
-($\frac{1}{e^{\sqrt{x}}}$ je zvezna, pozitivna in padajoča na $[1, \infty)$ zato
-integralski kriterij lahko uporabimo):
+Ker je $\frac{1}{e^{\sqrt{x}}}$ zvezna, pozitivna in padajoča na $[1, \infty)$,
+lahko konvergenco vrste preverimo z uporabo integralskega kriterija.
+
 \[
     \begin{split}
     \int_1^{\infty}\frac{1}{e^{\sqrt{x}}}dx &= 2e^{-\sqrt{x}}(- \sqrt{x} - 1) \big|_1^{\infty} = \\
     &= -\frac{4}{e}
     \end{split}
 \]
-Zgornji integral konvergira, zato bo vrsta $\sum_1^{\infty}\frac{1}{e^{\sqrt{x}}}$ konvergentna
-in s tem tudi $\sum_1^{\infty}\frac{1}{a_k}$.
+Zgornji integral konvergira, zato je vrsta $\sum_1^{\infty}\frac{1}{e^{\sqrt{x}}}$ konvergentna
+in s tem tudi vrsta $\sum_1^{\infty}\frac{1}{a_k}$.
 
 V nadaljevanju bomo pokazali, da je $Dec\{a_k\}$ iracionalno, tudi kadar $\{a_k\}$ narašča kot $e^{\sqrt{k}}$.
 
 \begin{izrek}
     \label{izrek1clanek2}
-    Naj bo $Dec\{a_k\} \in \Q$. Potem obstaja $x \in \R, \ x > 1$ in pozitivna konstanta $C$,
+    Naj bo $Dec\{a_k\} \in \Q$. Potem obstaja $x \in \R, \ x > 1$, in pozitivna konstanta $C$,
     da velja $a_k \geq Cx^k$ za vsak $k \geq 1$.
 \end{izrek}
 
@@ -288,29 +294,32 @@ Izrek pove, da če je $Dec\{a_k\}$ racionalno, potem zaporedje $a_k$ narašča v
     za vsak $y > 1$. Potem je decimalno število $Dec\{a_k\}$ iracionalno.
 \end{posledica}
 
-Zgornja posledica je močnejša kot izrek \ref{irac1}. Pogoj iz izreka \ref{irac1} 
-$(\sum_{i=1}^{\infty} \frac{1}{a_i} = \infty)$ očitno implicira
-pogoj iz zgornje posledice $(\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty , \ \forall y > 1)$.
-Po drugi strani pa bo iz posledice sledilo, da so $Dec\{a_k\}$ iracionalna tudi za zaporedja
-$\{a_k\}$, ki naraščajo kot $e^{\sqrt{k}}$, oz. kot $e^{k^s}$ za $0 < s < 1$:
+Zgornja posledica je močnejša kot izrek \ref{irac1}. 
+Pogoj iz izreka \ref{irac1}, ki zahteva divergenco vrste
+$\sum_{i=1}^{\infty} \frac{1}{a_i}$, očitno implicira
+pogoj iz zgornje posledice, torej da $\sum_{k=1}^{\infty}\frac{y^k}{a_k}$
+divergira za vsak $y > 1$.
 
-S korenskim kriterijem preverimo konvergenco.
+Po drugi strani pa bo iz posledice sledilo, da so $Dec\{a_k\}$ iracionalna tudi za zaporedja
+$\{a_k\}$, ki naraščajo kot $e^{\sqrt{k}}$, oz. kot $e^{k^s}$ za $0 < s < 1$. 
+Pogoj iz posledice preverimo z uporabo korenskega kriterija za konvergenco vrste:
 \[
-    r = \lim_{k \rightarrow \infty}\sqrt[k]{\frac{y^k}{e^{\sqrt{k}}}} = \lim_{k \rightarrow \infty}\frac{y}{e^{\frac{1}{\sqrt{k}}}}
+    r = \lim_{k \rightarrow \infty}\sqrt[k]{\frac{y^k}{e^{\sqrt{k}}}} = \lim_{k \rightarrow \infty}\frac{y}{e^{\frac{1}{\sqrt{k}}}}.
     = y
 \]
-Po predpostavki iz posledice je $y > 1$, zato vrsta divergira in bo zato $Dec\{a_k\}$ iracionalno.
+Po predpostavki iz posledice je $y > 1$, zato vrsta divergira. 
+Sledi, da je $Dec\{a_k\}$ iracionalno.
 \\
 
 \begin{zgled}
     S pomočjo posledice \ref{posledica} lahko sedaj preverimo ali je $Dec\{k^2\}$ iracionalno.
-    Po posledici bo število $0,149162536\dots$ iracionalno, če bo $\sum_{k=1}^{\infty}\frac{y^k}{k^2} = \infty$
+    Po posledici je število $0,149162536\dots$ iracionalno, če je $\sum_{k=1}^{\infty}\frac{y^k}{k^2} = \infty$
     za vsak $y > 1$. Uporabimo kvocientni kriterij in preverimo konvergenco vrste.
     \[
         L = \lim_{k \rightarrow \infty} \frac{\frac{y^{k+1}}{(k+1)^2}}{\frac{y^k}{k^2}}
         = y \lim_{k \rightarrow \infty} \big (\frac{k}{k + 1}\big)^2 = y > 1
     \]
-    Vrsta divergira, zato bo $Dec\{k^2\} \in \R \setminus \Q$.
+    Vrsta divergira, zato je $Dec\{k^2\} \in \R \setminus \Q$.
 \end{zgled}
 
 \noindent
@@ -319,20 +328,20 @@ Dokazujemo s protislovjem. Predpostavimo, da je $Dec\{a_k\} \in \Q$.
 Po izreku \ref{izrek1clanek2} obstaja realno število $x > 1$ in konstanta $C>0$, da velja
 $a_k \geq Cx^k$ za vsak $k \geq 1$. Ta izraz preoblikujemo in dobimo:
 \[
-    \frac{\sqrt{x}^k}{a_k} \leq \frac{1}{C\sqrt{x}^k}\] 
+    \frac{\sqrt{x^k}}{a_k} \leq \frac{1}{C\sqrt{x^k}}.\] 
 Od tod sledi
-\[ \sum_{k=1}^{\infty} \frac{\sqrt{x}^k}{a_k} \leq C^{-1} \sum_{k=1}^{\infty} \frac{1}{\sqrt{x}^k} < \infty.\]
-Desna vsota je ravno geometrijska vrsta, ki konvergira saj je $x > 1$ in s tem $\sqrt{x} > 1$.
-To pa je v protislovjem s predpostavko, ki pravi da $\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty$ za vsak $y>1$.
-Torej bo $Dec\{a_k\}$ iracioanlno.
+\[ \sum_{k=1}^{\infty} \frac{\sqrt{x^k}}{a_k} \leq C^{-1} \sum_{k=1}^{\infty} \frac{1}{\sqrt{x^k}} < \infty.\]
+Desna vsota je ravno geometrijska vrsta, ki konvergira, saj je $x > 1$ in s tem $\sqrt{x} > 1$.
+To pa je v protislovjem s predpostavko, ki pravi, da $\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty$ za vsak $y>1$.
+Torej bo $Dec\{a_k\}$ iracionalno.
 \qed
 
-{\em Dokaz izreka \ref{izrek1clanek2}:\/} Predpostavimo, da $Dec\{a_k\} = 0,(a_1)(a_2)\dots \in \Q$, torej bo 
-periodično od nekega člena dalje. Naj bo
-$(b_1b_2 \dots b_p), \ 0 \leq b_i \leq 9 \ \forall i = 1, \dots 9$, perioda in naj bo
+{\em Dokaz izreka \ref{izrek1clanek2}:\/} Predpostavimo, da $Dec\{a_k\} = 0,(a_1)(a_2)\dots \in \Q$,
+ torej je periodično od nekega člena dalje. Naj bo
+$(b_1b_2 \dots b_p), \ 0 \leq b_i \leq 9$ za vsak $i = 1, \dots 9$, perioda in naj bo
 $(a_m)$ prvi blok, ki se pojavi v periodičnem delu decimalnega zapisa.
 
-Najprej dokažimo, da ima blok $(a_{k+p})$ vsaj eno števko več kot blok $(a_k)$ za $\forall k \geq m$.
+Najprej dokažimo, da ima blok $(a_{k+p})$ vsaj eno števko več kot blok $(a_k)$ za vsak $k \geq m$.
 Predpostavimo, da imata $(a_{k+p})$ in $(a_k)$ oba po $N$ števk. 
 Ker je zaporedje $\{a_k\}$ strogo naraščajoče bodo imeli vsi $a_k, a_{k+1}, \dots a_{k+p}$ po $N$ števk.
 Število $(a_k)(a_{k+1})\dots (a_{k+p-1})$ ima torej $Np$ števk. Ker pa je perioda enaka p,
@@ -340,11 +349,11 @@ bo od tod sledilo, da je $a_k = a_{k+p}$, kar ne more biti res, saj je $\{a_k\}$
 
 Sledi, da ima $a_{k+ 2p}$ vsaj eno števko več kot $a_{k+p}$, in zato vsaj dve števki več kot $a_k$
 za vsak $k \geq m$.
-Torej velja, da je $a_{k+2p} \geq 10 a_k$. Z indukcijo lahko dokažemo, da je 
+Torej velja, da je $a_{k+2p} \geq 10 a_k$. Z indukcijo dokažemo, da je 
 \[ a_{k+2np} \geq 10^n a_k; \ \forall k \geq m, \ n \in \N.\]
 
 Vzemimo sedaj poljuben $l \geq m$ in označimo $n := \lfloor \frac{l-m}{2p} \rfloor$.
-Veljalo bo 
+Velja 
 \begin{equation}\label{enacba1}
     a_l \geq a_{m+2np} \geq 10^n a_m \geq 10 ^{\frac{l-m-2p}{2p}}a_m,
 \end{equation}
@@ -358,24 +367,24 @@ Za dokaz prve neenakosti si poglejmo indekse obeh členov.
     &= m + l - m = l
     \end{split}
     \] 
-Ker je $\{a_k\}$ strogo naraščajoče bo sledilo $a_{m+2np} \leq a_l$.
-Druga neenakostj sledi po prejšnji ugotovitvi, da je $a_{k+2np} \geq 10^n a_k$.
+Ker je $\{a_k\}$ strogo naraščajoče sledi $a_{m+2np} \leq a_l$.
+Druga neenakost sledi po prejšnji ugotovitvi, da je $a_{k+2np} \geq 10^n a_k$.
 Za tretjo neenakost pa podrobneje poglejmo eksponenta števila $10$. Velja
 \[
     n = \bigg\lfloor \frac{l-m}{2p}\bigg\rfloor > \frac{l-m}{2p} - 1,
      \]
 saj je po pravilih za računanje s celim delom realnega števila $x < \lfloor x\rfloor + 1$.
 
-Definirajmo $C' := 10^{-\frac{m + 2p}{2p}}$ in $x := 10^{\frac{1}{2p}}$, za kar bo veljalo
+Definirajmo $C' := 10^{-\frac{m + 2p}{2p}}$ in $x := 10^{\frac{1}{2p}}$, za kar velja
 \begin{equation}\label{enacba2}
      C'x^l = 10^{-\frac{m + 2p}{2p}} \cdot 10^{\frac{l}{2p}} = 10 ^{\frac{l-m-2p}{2p}}
      \leq 10 ^{\frac{l-m-2p}{2p}} a_m,
 \end{equation}
-kjer smo upoštevali, da je $\{a_k\}$ zaporedje pozitivnih celih števil in je zato $a_m \geq 1$.
+kjer smo upoštevali, da je $\{a_k\}$ zaporedje naravnih števil in je zato $a_m \geq 1$.
 
-Če sedaj združimo neeančbi \ref{enacba1} in \ref{enacba2} dobimo 
+Če sedaj združimo neenačbi \ref{enacba1} in \ref{enacba2}, dobimo 
 $a_l \geq C'x^l$ za vsak $l \geq m$.
-Po potrebi zmanšajmo $C'$ na $C>0$, da bo neenakost veljala
+Po potrebi zmanjšamo $C'$ na $C>0$, da bo neenakost veljala
 za vse $k \geq 1$.
 
 \qed
@@ -413,10 +422,10 @@ za vse $k \geq 1$.
 
     \bibitem{HaW}
     G.~H.~Hardy in E.~M.~Wright, \emph{An introduction to the theory of numbers}, 
-    5.izdaja, Clarendon Press, Oxford, 1970.
+    5. izdaja, Clarendon Press, Oxford, 1970.
     \bibitem{Heg}
     N.~Hegyvari, \emph{On some irrational decimal fractions},
-    Amer.~Math.~Monthly \textbf{100(8)}  (Okt., 1993),  779-780.
+    Amer.~Math.~Monthly \textbf{100(8)}  (Oct., 1993),  779-780.
     \bibitem{Mar}
     P.~Martinez, \emph{Some new irrational decimal fractions},
     Amer.~Math.~Monthly \textbf{108(3)}  (Mar., 2001),  250-253.

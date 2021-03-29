@@ -54,13 +54,12 @@ Oddelek za matematiko}
     \begin{definicija}
         \alert{Desetiški ulomek}
         je ulomek, katerega imenovalec je potenca števila $10$.
-        \[ \frac{73}{1000}\]
-        Za poenostavitev uporabljamo zapis z decimalno vejico:
-        \[ 0,073\]
+
     \end{definicija}
-
+    \[ \frac{73}{1000}\]
+    Za poenostavitev uporabljamo zapis z decimalno vejico:
+    \[ 0,073\]
     \pause
-
     Kakšna je razlika v decimalnem zapisu racionalnega in iracionalnega števila?
 
 % Zdaj pa me zanima ali bi kdo povedal razliko v zapisu racionalnega in irracionalnega števila?
@@ -69,7 +68,7 @@ Oddelek za matematiko}
     \pause
     \begin{itemize}
         \item racionalna števila: $5,6$;  $0,\overline{26}$
-        \item iracionalna števila: $\pi = 3,1415926535 \dots$
+        \item iracionalna števila: $\pi = 3,1415926535 \ldots$
     \end{itemize}
 \end{frame}
 
@@ -86,18 +85,18 @@ Oddelek za matematiko}
         Naj bo $x$ realno število, $ 0 < x < 1$, podano z decimalnim zapisom: 
         \[ 
             \begin{split}
-                x & = \sum^n_{i=1} c_i 10^{-i} = \\
-                & = 0,c_0c_1c_2 \cdots c_n ,
+                x & = \sum^{\infty}_{i=1} c_i 10^{-i} = \\
+                & = 0,c_1c_2c_3 \ldots ,
             \end{split}   
         \]
-        kjer so $0 \leq c_i \leq 9 \ \forall i = 1, \dots, s$.
+        kjer so $0 \leq c_i \leq 9$ za vse $ i = 1, \ldots, s$.
         
-        Z $b$ označimo celo število sestavljeno iz zaporedja števk
-        $b_1b_2b_3 \dots b_s$, 
-        kjer je $s\geq 1$ in $0 \leq b_i \leq 9 \ \forall i = 1, \dots, s$.
+        Z $b$ označimo naravno število sestavljeno iz zaporedja števk
+        $b_1b_2b_3 \ldots b_s$, 
+        kjer je $s\geq 1$ in $0 \leq b_i \leq 9$ za vse $i = 1, \ldots, s$.
 
         Pravimo, da število $x$ \alert{vsebuje blok števil} $(b) = (b_1b_2b_3 \dots b_s)$, če obstaja $j \geq 0$, da je 
-        $c_{i+j} = b_i$ za vse $i=1, 2, \dots s$. 
+        $c_{i+j} = b_i$ za vse $i=1, 2, \ldots s$. 
     \end{definicija}
 
     % Ta definicija je popolni formalizem. 
@@ -114,17 +113,17 @@ Oddelek za matematiko}
 
 %%%%%%%%%%%%%%%%%%%%%%% O ŠTEVILU 0,23571113... %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-    \frametitle{O številu $0,23571113\dots$}
+    \frametitle{O številu $0,23571113\ldots$}
     Poljubno decimalno število lahko razumemo kot zaporedje blokov celih števil.
 
     %Poglejmo si konkreten primer, ki nam bo služil kot motivacija za naprej
     \pause
-    \[0,235711131719\dots\]
+    \[0,235711131719\ldots\]
     % Zdaj me zanima ali prepozna kdo zaporedje blokov iz katerega je sestavljeno to decimalno št.?
     % To število kot lahko prepoznate je sestavljeno iz zaporedja blokov praštevil.
     \pause
     % Njegov zapis lahko ponazorimo kot:
-    \[0,(p_1)(p_2)(p_3)(p_4)\dots\]
+    \[0,(p_1)(p_2)(p_3)(p_4)\ldots\]
     $\{p_i\}$ predstavlja zaporedje praštevil.
     \pause
     \newline
@@ -137,9 +136,9 @@ Oddelek za matematiko}
 \end{frame}
 
 \begin{frame}
-    \frametitle{O številu $0,23571113\dots$}
+    \frametitle{O številu $0,23571113\ldots$}
     \begin{trditev}
-        Število $0,23571113 \dots$ je iracionalno.
+        Število $0,23571113 \ldots$ je iracionalno.
     \end{trditev}
 
     %Za dokaz te trditve bomo potrebovali različico Dirichletovega izreka, ki pravi:
@@ -153,19 +152,19 @@ Oddelek za matematiko}
     %Najprej prilagodimo Dirichletov izrek za našo potrebo
     \emph{Dokaz:} Naj bo $s \geq 0$ poljubno celo število
     
-    Po Dirichletovem izreku $ \{10^{s+1}k + 1\}$, $k \in \N$ vsebuje neskončno praštevil.
+    Po Dirichletovem izreku $ \{10^{s+1}k + 1\}_{k \in \N}$,  vsebuje neskončno praštevil.
     %V Dirichletovem izreku vzemimo za a=10^{s+1} in za b=1
     % Ti števili sta si res tuji, zato bo to vredu
     \pause
     Obstajajo praštevila oblike:
-    \[(k)\underbrace{00 \dots}_{s}1\]
+    \[(k)\underbrace{00 \ldots}_{s}1\]
     \pause
-    Taka števila obstajajo za $\forall s \geq 0$.
+    Taka števila obstajajo za vsak $s \geq 0$.
     %Torej če večamo število s se bo večalo tudi število ničel, ki mu sledi ena enica
     %Ponazorimo s primerom
     % k_11 k_201 k_3001 k_40001... kjer so k_i neka naravna števila -> vedno več bo ničel
     
-    $0,2357\dots$ vsebuje vse bloke takšne oblike, zato ne bo periodično.
+    $0,2357\ldots$ vsebuje vse bloke takšne oblike, zato ne bo periodično.
     \qed
 
 \end{frame}
@@ -178,14 +177,14 @@ Oddelek za matematiko}
     % Do zdaj smo dokazali, da je decimalno število, ki ima za bloke zaporedje praštevil iracionalno
     % Zdaj pa nas zanima kaj lahko povemo o decimalnih številih, ki so sestavljena iz blokov
     % za neko drugo naraščajoče zaporedje
-    Naj bo $1 \leq a_1 < a_2 < \dots $ strogo naraščajoče zaporedje celih števil. 
-    Označimo: \[Dec\{a_k\} = 0,(a_1)(a_2)(a_3)... \  \ ;  a_k \in \Z \ k \in \N \]
+    Naj bo $1 \leq a_1 < a_2 < \dots $ strogo naraščajoče zaporedje naravnih števil. 
+    Označimo: \[Dec\{a_k\} = 0,(a_1)(a_2)(a_3)\ldots \  \ ; k \in \N, \ a_k \in \N \]
     \pause
 
     % Za začetek povejmo izrek, ki nam bo podal pogoj pod katerim bo tako decimalno število iracionalno
 
     \begin{izrek}\label{izrek1clanek1}
-        Če za strogo naraščajoče zaporedje celih števil $\{a_i\}_{i \in \N}$ velja 
+        Če za strogo naraščajoče zaporedje naravnih števil $\{a_i\}_{i \in \N}$ velja 
         \[ \sum_{i=1}^{\infty} \frac{1}{a_i} = \infty ,\]
         potem je $Dec\{a_k\}$ iracionalno.
     \end{izrek}
@@ -194,13 +193,13 @@ Oddelek za matematiko}
 
 \begin{frame}\frametitle{Decimalna števila z naraščajočimi bloki}
 
-    Ali število $0,23571113\dots$ zadošča pogoju izreka?
+    Ali število $0,23571113\ldots$ zadošča pogoju izreka?
     \pause
     
     % Torej nas zanima ali bo veljalo, da naslednja vrsta konvergira
     \[
         \sum_{p \ \text{praštevilo}}\frac{1}{p} =
-        \frac{1}{2} + \frac{1}{3} + \frac{1}{5} + \frac{1}{7} + \dots \overset{?}{=} \infty \]
+        \frac{1}{2} + \frac{1}{3} + \frac{1}{5} + \frac{1}{7} + \ldots \overset{?}{=} \infty \]
     \pause
     %Tega danes ne bomo dokazali je pa divergenco te vrste dokazal Euler leta 1737
 
@@ -239,7 +238,7 @@ Oddelek za matematiko}
 \begin{frame}
     \emph{Dokaz izreka:}
     
-    $\{a_i\}_{i \in \N}$ strogo naraščajoče zaporedje celih števil
+    $\{a_i\}_{i \in \N}$ strogo naraščajoče zaporedje naravnih števil
     
     dokazujemo: $\sum_{i=1}^{\infty} \frac{1}{a_i} = \infty \Rightarrow Dec\{a_k\} \in \R \setminus\Q$
     \newline
@@ -295,7 +294,7 @@ Oddelek za matematiko}
         \item Pogoj iz izreka \ref{izrek1clanek1} 
         $(\sum_{i=1}^{\infty} \frac{1}{a_i} = \infty)$ očitno implicira
         pogoj iz zgornje posledice \ref{posledica}
-        $(\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty , \ \forall y > 1)$.
+        $(\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty ,$ za vsak $y > 1)$.
         \pause
         \item Izreka \ref{izrek1clanek1} ne moremo uporabiti za zaporedja $\{a_k\}$, ki naraščajo kot $e^{\sqrt{k}}$,
                 saj vrsta $\sum_1^{\infty}\frac{1}{a_k}$ konvergira.
