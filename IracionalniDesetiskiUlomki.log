@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.11)  2 APR 2021 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.11)  3 APR 2021 22:43
 entering extended mode
 **c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex
 (c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/IracionalniDesetiskiUlomki.tex
@@ -283,87 +283,82 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {C:/Users/gajaj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 100.
- [2] [3]
-Overfull \hbox (21.23972pt too wide) detected at line 196
-\OML/lmm/m/it/12 S[] \OT1/lmr/m/n/12 = [] + [] [] + 10[][][] + [] + [][] \OMS/lmsy/m/n/12  [] \OT1/lmr/m/n/12 + [] [] + 10[][][] + [] + [][]\OML/lmm/m/it/12 ;
- []
-
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 309--313
+ [2] [3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 314--318
 
  []
 
 
-Overfull \hbox (14.15787pt too wide) in paragraph at lines 325--330
+Overfull \hbox (14.15787pt too wide) in paragraph at lines 330--335
 \T1/lmr/m/it/12 Dokaz po-sle-dice 1[]: \T1/lmr/m/n/12 Do-ka-zu-jemo s pro-ti-slov-jem. Pred-po-sta-vimo, da je $\OML/lmm/m/it/12 Dec\OMS/lmsy/m/n/12 f\OML/lmm/m/it/12 a[]\OMS/lmsy/m/n/12 g 2
  []
 
 [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 435--437
+Underfull \hbox (badness 2894) in paragraph at lines 440--442
 []\T1/lmr/m/n/12 A. McD. Mer-cer, \T1/lmr/m/it/12 A note on some ir-ra-ti-o-nal de-ci-mal frac-ti-ons\T1/lmr/m/n/12 ,
  []
 
-[8] (c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.aux) ) 
+[8] [9] (c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.aux) ) 
 Here is how much of TeX's memory you used:
  3711 strings out of 492452
  50915 string characters out of 3120063
@@ -371,11 +366,11 @@ Here is how much of TeX's memory you used:
  7979 multiletter control sequences out of 15000+200000
  61309 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,19n,30p,361b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,19n,30p,361b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.pdf (8 pages, 237835 bytes).
+Output written on c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\IracionalniDesetiskiUlomki.pdf (9 pages, 238716 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

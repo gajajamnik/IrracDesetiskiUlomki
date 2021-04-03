@@ -46,8 +46,8 @@ Oddelek za matematiko}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% UVOD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Uvod}
-V tem delu obravnavamo realna števila zapisana v obliki decimalnega zapisa.
-Spomnimo se definicije desetiških ulomkov ter decimalnega zapisa.
+V tem delu obravnavamo realna števila zapisana v obliki decimalnega zapisa,
+zato se za začetek spomnimo definicije desetiških ulomkov ter decimalnega zapisa.
 
 \begin{definicija}
     {\em Desetiški ulomek} je ulomek, katerega imenovalec je potenca števila $10$. 
@@ -88,7 +88,7 @@ V ta namen podajmo naslednjo definicijo.
 \end{definicija}
 
 \begin{zgled}
-    Število $0,135627$ vsebuje blok $(356)$, vendar ne vsebuje bloka $(352)$.
+    Število $0,135627$ vsebuje blok $(356)$, vendar ne vsebuje bloka $(352)$ ali $(72)$.
 \end{zgled}
 
 Poljubno decimalno število lahko razumemo kot zaporedje blokov celih števil.
@@ -191,9 +191,12 @@ je očitno $s$, število $10^s$ pa ima $s+1$ števk, kar pomeni, da imajo vsi $x
 več števk kot je dolžina bloka. 
 
 Delno vsoto sedaj preoblikujemo v
-\[ S_n = \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}\bigg(\frac{1}{\frac{x_{t + 1}}{10^s}} + \dots + \frac{1}{\frac{x_n}{10^s}}\bigg)
-    \leq \frac{1}{x_1} + \dots \frac{1}{x_t} + 10^{-s}\bigg(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}\bigg) ,
-\]
+\[ 
+    \begin{split}
+        S_n &= \frac{1}{x_1} + \dots + \frac{1}{x_t} + 10^{-s}\bigg(\frac{1}{\frac{x_{t + 1}}{10^s}} + \dots + \frac{1}{\frac{x_n}{10^s}}\bigg) \\
+        &\leq \frac{1}{x_1} + \dots + \frac{1}{x_t} + 10^{-s}\bigg(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}\bigg) ,
+    \end{split}
+     \]
 kjer smo v neenakosti upoštevali, da za poljuben $y > 0$ velja $y \geq \lfloor y \rfloor$.
 
 Ker za vsak $\ t < i \leq n$ velja $10^s \leq x_i$, je $\lfloor \frac{x_i}{10^s} \rfloor$ pozitivno celo število.
@@ -208,9 +211,11 @@ $ \lfloor\frac{12345}{10^2}\rfloor = \lfloor \frac{12387}{10^2}\rfloor = 123$.
 
 Opazimo, da se blok $(b_1b_2b_3 \dots b_s)$ pojavi v vsaj enem od prvih $10^s$ naravnih števil.
 Torej lahko poljuben $x_y \in X$ zadošča za največ $10^s - 1$ možnih $x_i$, kjer $\lfloor \frac{x_i}{10^s} \rfloor = x_y$.
-V zgornjem primeru (za $s=2$) torej število $123$ zadošča za vsa števila $123 \square \square$,
-kjer lahko na zadnji dve mesti postavimo poljubno dvomestno število, razen bloka $b_1b_2$.
-Takih števil pa je največ $10^2 - 1$.
+%
+Ponovno si poglejmo primer, ko je $s=2$, ter vzemimo $x_y = 123$. Za število $x_i$ bomo torej lahko vzeli števila oblike $123 \square \square$,
+ki ne bodo za nobeni dve zaporedni števki imela bloka $(b_1b_2)$. 
+Zato očitno za zadnji dve števki (označeni s kvadratkoma) ne bomo mogli vzeti števk $b_1b_2$. 
+Od tod bo sledilo da obstaja največ $10^2 - 1$ ustreznih števil $x_i$.
 
 Po zgornjem premisleku lahko sedaj ocenimo izraz 
 \[(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) < (10^s - 1)S_n.\]
@@ -250,7 +255,7 @@ Razdelimo vsoto glede na vsebovanost členov $a_i$ v $Y$:
 
 Po predpostavki vrsta na levi strani enačaja divergira in po lemi vrsta $\sum_{a \in Y}\frac{1}{a}$
 konvergira. Od tod sledi, da vrsta $\sum_{a \notin Y} \frac{1}{a}$ divergira.
-To pomeni, da bo obstaja neskončno $a_i$ v $Dec\{a_i\} = 0,(a_1)(a_2) \dots$, ki vsebujejo blok 
+To pomeni, da obstaja neskončno $a_i$ v $Dec\{a_i\} = 0,(a_1)(a_2) \dots$, ki vsebujejo blok 
 $(c_1c_2\dots c_{2s})$. Ta blok je dvakrat daljši kot blok $(b)$ in z drugačnimi števkami, zato se ne more
 zgoditi, da bi bil $(c)$ vsebovan v $(b)$ ali sestavljal njegove dele. 
 Blok $(b)$ se zato ne ponavlja v neskončnosti in posledično $Dec\{a_i\}$ ne more biti periodično.
