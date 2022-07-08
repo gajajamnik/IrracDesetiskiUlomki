@@ -1,0 +1,43 @@
+Navodila za pisanje članka za Revijo Matrika.
+
+I. Uvodna navodila:
+    1. Uporabi naj se predloga, ki je podana na naši spletni strani revije Matrika
+    2. V primeru, da je članek v angleščini, se najprej poda angleški naslov in angleški povzetek, nato slovenski naslov in slovenski povzetek, oba povzetka pa naj bosta napisana v 3. osebi.
+    3. V primeru, da številka revije, v kateri bo članek izšel še ni popravljena, v dokumentu primerno spremenite vrstico \MAT{številka(1,2)}{letnik(8,9,...)}{letnica izvoda(2021,2022...)}
+    4. Dovoljeno je dodajanje poljubnih paketov, če le ti ne spreminjajo obliko članka ali besedila
+    5. Oddaja naj bo sestavljena iz dveh dokumentov; pdf članka (nezazipanega) in zip datoteke LaTeX-ka, ki ste ga uporabljali (z vsemi slikami, dodatnimi datotekami ...)
+
+II. Splošna navodila:
+    1. Števila do deset se piše z besedo
+    2. Besedilo v enačbah (tudi če je podpisano ali nadpisano) se piše s pomočjo \text{} primer $k_{\text{B}}$, razen če gre za indeksacijo
+    3. Uporablja se oklepaje oblike \left \right (ne glede na vrsto (,[, ... )
+    4. Prelomi strani naj bodo utemeljeni (v primeru novega poglavja, nova stran ni potrebna. Izjeme so estetske oblike)
+    5. Skozi celoten članek naj bo poenotena uporaba decimalne vejice ali pike (za decimalno vejico/piko in naslednjo cifro ni presledka. Slovenski latex je namreč narejen tako, da ob uporabi vejice za njo avtomatično naredi kratek presledek)
+    6. Skozi celoten članek naj bo poenotena pisava številk nad tisoč (70,000 70.000 ali 70000 ali 70 000 s kratkim presledkom)
+    7. Skozi celoten članek naj bo poenotena uporaba krajšav
+    8. Številke in enote naj imajo med seboj minimalen razmak (priporočena uporaba siunitx \SI{<number>}{<unit>})
+
+III. Sklicevanje:
+    1. Vsaka uporabljena slika mora imeti sklic v besedilu, za sklicevanje pa se uporabi \ref{}, \label{}
+    2. V primeru sklicevanja na enačbe, se uporablja \eq:ref{}, \label{}. Če je dana enačba podana zgolj kot pojasnilo in se nanjo ne sklicujete v besedilu, se uporabi \begin{equation*} (tako se enačba ne oštevilči, saj po tem ni potrebe)
+    3. V primeru sklicevanja na poglavja, se uporabi \ref{}, \label{section:}, po želji se lahko v narekovajih navede ime poglavja.
+       Če se slučajno številka poglavja prekriva z besedilom, uporabi \hspace{1px} ali \hspace{2px}
+    4. V primeru sklicevanja na izreke, trditev ..., se uporabi \ref{}, \label{izrek, trditev ...:}
+    5. Vsak vir, ki je naveden v literaturi, mora biti citran znotraj besedila z ukazom \cite{}, številka vira ni odebeljena
+    6. Vsaka slika, ki ni avtorska, mora imeti naveden vir na koncu opisa slike (\caption{Opis slike, Vir: \cite{slika}})
+
+IV Matematični dodatki:
+    1. V primeru uporabe izrekov, dokazov, trditev ... naj se uporablja avtomatsko knjižnjico, ki jo ima podana matrika.sty (potrebno je imeti knjižnjco \usepackage{amssymb}).
+Primer: \begin{definicija} \end{definicija} ali \begin{izrek}[Ime izreka]\label{izr: }\end{izrek}
+V primeru angeškega članka se uporablja iste ukaze, zgolj napisane v angleščini (predlagam ogled datoteke matrika.sty)
+    2. Dokazi morajo imeti na koncu desno spodaj podan poln črn kvadratek aka Q.E.D..
+V. Viri:
+    1. Za vire je priporočena uporaba BibTeX-a, saj ta vire sestavi avtomatsko, vendar kljub temu svetujemo, da vse tako vnešene vire pregledate, da so bili zapisani pravilno
+    2. Vsaka spletna stran naj ima podan datum ogleda (zaradi spreminjanja spletne strani). Tega navedete kot: ogled: datum.
+    3. Na koncu vsakega vira naj bo podana pika
+    4. Vsaka spleta stran naj ima podan link. Tega navedete kot: Spletna stran: ...
+
+
+
+
+

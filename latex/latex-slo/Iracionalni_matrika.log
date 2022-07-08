@@ -1,0 +1,577 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.11)  8 JUL 2022 16:50
+entering extended mode
+**c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex
+(c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex
+LaTeX2e <2019-10-01>
+("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
+File: size11.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/09/27 3.34 The Babel package
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/09/27 3.34 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-slovenian\slovene.ldf"
+Language: slovene 2005/03/31 v1.2m Slovene support from the babel system
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/09/27 3.34 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@dirlevel=\count89
+)
+Package babel Info: Making " an active character on input line 79.
+)) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+) (c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\latex\latex-slo\matrika.sty
+
+LaTeX Warning: You have requested package `matrika',
+               but the package provides `MAT'.
+
+Package: MAT 2015/01/25 2.0
+("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and footers
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\latex\latex-slo\oznake.sty
+Package: oznake 2009/11/17 1.10
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))) (c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\latex\latex-slo\pisave.sty
+Package: pisave 2006/07/13 0.4
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ae\ae.sty"
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 105.
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+))) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ae\aecompl.sty"
+Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen106
+\captionmargin=\dimen107
+\caption@leftmargin=\dimen108
+\caption@rightmargin=\dimen109
+\caption@width=\dimen110
+\caption@indent=\dimen111
+\caption@parindent=\dimen112
+\caption@hangindent=\dimen113
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count90
+\c@continuedfloat=\count91
+)
+\MATrazmik=\skip52
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/crop\crop.sty"
+Package: crop 2017/11/19 1.10 crop marks (mf)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+\stockwidth=\dimen114
+\stockheight=\dimen115
+\CROP@index=\count92
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+\CROP@offset=\count93
+Package crop Info: Local config file crop.cfg used on input line 622.
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/xelatex/xetexconfig\crop.cfg"))
+\c@seznam=\count94
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ntheorem\ntheorem.sty"
+Style `ntheorem', Version 1.33 <2011/08/15>
+Package: ntheorem 2011/08/15 1.33
+\theorem@style=\toks18
+\theorem@@style=\toks19
+\theorembodyfont=\toks20
+\theoremnumbering=\toks21
+\theorempreskipamount=\skip53
+\theorempostskipamount=\skip54
+\theoremframepreskipamount=\skip55
+\theoremframepostskipamount=\skip56
+\theoreminframepreskipamount=\skip57
+\theoreminframepostskipamount=\skip58
+\theorem@preskip=\toks22
+\theorem@postskip=\toks23
+\theorem@framepreskip=\toks24
+\theorem@framepostskip=\toks25
+\theorem@inframepreskip=\toks26
+\theorem@inframepostskip=\toks27
+\theoremindent=\dimen116
+\theorem@indent=\dimen117
+\theoremrightindent=\dimen118
+\theorem@rightindent=\dimen119
+\theoremheaderfont=\toks28
+\theoremseparator=\toks29
+\theoremprework=\toks30
+\theorempostwork=\toks31
+\theoremsymbol=\toks32
+\qedsymbol=\toks33
+\theoremkeyword=\toks34
+\qedsymbol=\toks35
+\thm@topsep=\skip59
+\thm@topsepadd=\skip60
+)
+\c@izrek=\count95
+\c@izrek0=\count96
+\c@lema0=\count97
+\c@trditev0=\count98
+\c@konstrukcija0=\count99
+\c@primer=\count100
+\c@zgled=\count101
+\c@definicija=\count102
+\c@lastnost=\count103
+\c@pripomba=\count104
+\c@opomba=\count105
+\c@naloga=\count106
+\c@primer0=\count107
+\c@definicija0=\count108
+\c@pripomba0=\count109
+\c@opomba0=\count110
+\c@dokaz=\count111
+\c@dokazizreka=\count112
+\c@dokazskica=\count113
+\c@odgovor=\count114
+\c@resitev0=\count115
+\c@resitev=\count116
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtools.sty"
+Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count117
+\calc@Bcount=\count118
+\calc@Adimen=\dimen120
+\calc@Bdimen=\dimen121
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count119
+\calc@Cskip=\skip63
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.sty"
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2019/04/01 v2.17c AMS math features
+\@mathmargin=\skip64
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks36
+\ex@=\dimen122
+)) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen123
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count120
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count121
+\leftroot@=\count122
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count123
+\DOTSCASE@=\count124
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen124
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count125
+\c@MaxMatrixCols=\count126
+\dotsspace@=\muskip10
+\c@parentequation=\count127
+\dspbrk@lvl=\count128
+\tag@help=\toks37
+\row@=\count129
+\column@=\count130
+\maxfields@=\count131
+\andhelp@=\toks38
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks39
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2855.
+LaTeX Info: Redefining \] on input line 2856.
+)
+\g_MT_multlinerow_int=\count132
+\l_MT_multwidth_dim=\dimen131
+\origjot=\skip67
+\l_MT_shortvdotswithinadjustabove_dim=\dimen132
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen133
+\l_MT_above_intertext_sep=\dimen134
+\l_MT_below_intertext_sep=\dimen135
+\l_MT_above_shortintertext_sep=\dimen136
+\l_MT_below_shortintertext_sep=\dimen137
+\xmathstrut@box=\box29
+\xmathstrut@dim=\dimen138
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf.sty"
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+))) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO)
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\units.sty"
+Package: units 1998/08/04 v0.9b Typesetting units
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\nicefrac.sty"
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip68
+\L@UnitsRaiseTextstyle=\skip69
+\L@UnitsRaiseScriptstyle=\skip70
+)) ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\latex\latex-slo\Iracionalni_matrika.aux)
+\openout1 = `Iracionalni_matrika.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count133
+\scratchdimen=\dimen139
+\scratchbox=\box30
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen140
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks42
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package crop Info: requested driver: `pdftex' on input line 14.
+Package crop Info: detected driver: `pdftex' on input line 14.
+Package crop Info: using `pdftex' graphics driver on input line 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+ ("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation `Euc' on page 1 undefined on input line 90.
+
+
+LaTeX Warning: Citation `Vog' on page 1 undefined on input line 101.
+
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 105.
+("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 105.
+ [1{C:/Users/gajaj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+
+LaTeX Warning: Reference `izrek: Dirichlet' on page 2 undefined on input line 111.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:128: Undefined control sequence.
+l.128 ...\} = 0,(a_1)(a_2)(a_3)... \  \ ; k \in \N
+                                                  , \ a_k \in \N . \]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:128: Undefined control sequence.
+l.128 ..._2)(a_3)... \  \ ; k \in \N, \ a_k \in \N
+                                                   . \]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:133: Undefined control sequence.
+l.133 ...redje naravnih števil $\{a_i\}_{i \in \N
+                                                  }$ velja
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `trditev praštevila' on page 2 undefined on input line 138.
+
+
+LaTeX Warning: Citation `Eul' on page 2 undefined on input line 142.
+
+
+LaTeX Warning: Reference `irac1' on page 2 undefined on input line 149.
+
+
+LaTeX Warning: Reference `defincija blokov' on page 2 undefined on input line 159.
+
+[2]
+
+LaTeX Warning: Reference `lema bloki' on page 3 undefined on input line 171.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:174: Undefined control sequence.
+l.174 Vzemimo tak $t \in \N
+                            $, da velja $x_{t-1} < 10^s \leq x_t$. Število ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `irac1' on page 3 undefined on input line 223.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:223: Undefined control sequence.
+l.223 ... \ref{irac1}:\/} Naj bo $\{a_i\}_{i\in \N
+                                                  }$ strogo naraščajoče z...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:225: Undefined control sequence.
+l.225 ...e $Dec\{a_i\} = 0,(a_1)(a_2) \dots \in \Q
+                                                  $. To decimalno
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3]
+
+LaTeX Warning: Reference `irac1' on page 4 undefined on input line 287.
+
+
+LaTeX Warning: Reference `irac1' on page 4 undefined on input line 288.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--303
+
+ []
+
+[4]
+
+LaTeX Warning: Reference `posledica' on page 5 undefined on input line 305.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:312: Undefined control sequence.
+l.312 ...sta divergira, zato je $Dec\{k^2\} \in \R
+                                                   \setminus \Q$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:312: Undefined control sequence.
+l.312 ..., zato je $Dec\{k^2\} \in \R \setminus \Q
+                                                  $.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `posledica' on page 5 undefined on input line 316.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:317: Undefined control sequence.
+l.317 .... Predpostavimo, da je $Dec\{a_k\} \in \Q
+                                                  $.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `izrek1clanek2' on page 5 undefined on input line 318.
+
+
+LaTeX Warning: Reference `izrek1clanek2' on page 5 undefined on input line 331.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:331: Undefined control sequence.
+l.331 ...da $Dec\{a_k\} = 0,(a_1)(a_2)\dots \in \Q
+                                                  $,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/latex/latex-slo/Iracionalni_matrika.tex:345: Undefined control sequence.
+l.345 ... 10^n a_k; \ \forall k \geq m, \ n \in \N
+                                                  .\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[5]
+
+LaTeX Warning: Reference `enacba1' on page 6 undefined on input line 377.
+
+
+LaTeX Warning: Reference `enacba2' on page 6 undefined on input line 377.
+
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 413.
+("C:\Users\gajaj\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+\tf@thm=\write3
+\openout3 = `Iracionalni_matrika.thm'.
+
+ [6] (c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\latex\latex-slo\Iracionalni_matrika.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6825 strings out of 492452
+ 102830 string characters out of 3120063
+ 185115 words of memory out of 3000000
+ 11005 multiletter control sequences out of 15000+200000
+ 43595 words of font info for 86 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 47i,19n,49p,428b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on c:/Users\gajaj\Documents\FAKS\2.letnik\seminar\IrracDesetiskiUlomki\latex\latex-slo\Iracionalni_matrika.pdf (6 pages, 268199 bytes).
+PDF statistics:
+ 106 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
