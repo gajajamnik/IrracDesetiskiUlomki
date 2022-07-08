@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1657294882 "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.tex" "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.pdf" "Iracionalni_matrika" 1657294892
+["pdflatex"] 1657313650 "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.tex" "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.pdf" "Iracionalni_matrika" 1657313651
   "C:/Users/gajaj/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1570818591 4273480 7be2a7d1a4e2a213550b78b884ea33f4 ""
   "C:/Users/gajaj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1656094437 83930 a60ec061f757cf348be11677879bca0c ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -143,10 +143,10 @@
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/tex/latex/units/units.sty" 1469029150 2206 65ad9fb19763b1681bea4cb389fe84f8 ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gajaj/AppData/Local/Programs/MiKTeX 2.9/tex/xelatex/xetexconfig/crop.cfg" 1169254494 305 57c5d049d73b46b49f97b41eaa29558b ""
-  "Iracionalni_matrika.aux" 1657294883 1934 95616b8da369bd4f83e803728a0d3734 "pdflatex"
-  "Iracionalni_matrika.tex" 1657294892 19081 fc00f0e9965cd44b34adf29f730c1ce7 ""
-  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.aux" 1657294883 1934 95616b8da369bd4f83e803728a0d3734 ""
-  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.tex" 1657294892 19081 fc00f0e9965cd44b34adf29f730c1ce7 ""
+  "Iracionalni_matrika.aux" 1657313651 1934 95616b8da369bd4f83e803728a0d3734 "pdflatex"
+  "Iracionalni_matrika.tex" 1657313650 19066 3847d335aeec91be532a8d435a8059bc ""
+  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.aux" 1657313651 1934 95616b8da369bd4f83e803728a0d3734 ""
+  "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.tex" 1657313650 19066 3847d335aeec91be532a8d435a8059bc ""
   "matrika.sty" 1614474778 8841 b054e2b9565078f4935adde2c2a4f09d ""
   "oznake.sty" 1614474778 3496 f566e40d6205a1186536cae28fc501af ""
   "pisave.sty" 1614474780 2130 5abd30053f800ea1676722ededf4b821 ""
@@ -154,6 +154,6 @@
   "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.pdf"
   "Iracionalni_matrika.log"
   "Iracionalni_matrika.pdf"
+  "Iracionalni_matrika.aux"
   "c:/Users/gajaj/Documents/FAKS/2.letnik/seminar/IrracDesetiskiUlomki/Iracionalni_matrika.log"
   "Iracionalni_matrika.thm"
-  "Iracionalni_matrika.aux"
