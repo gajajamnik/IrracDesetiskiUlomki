@@ -15,19 +15,21 @@
 
 \MAT{~}{1}{2022}
 
-\naslov{O nekaterih iracionalnih desetiških ulomkih}
+\naslov{O nekaterih iracionalnih desetiških zapisih}
 
 \avtor{Gaja Jamnik}
 
 \institucija{Fakulteta za matematiko in fiziko \\ Univerza v Ljubljani}
 
 \klasifikacija{~} 
-\izvlecek{V članku obravnavamo načine kako lahko iz zaporedja števk v decimalnem zapisu števila določimo njegovo racionalnost oziroma iracionalnost.
-Podrobneje obravnavamo decimalno s števkami sestavljenimi iz zaporedja praštevil.}
+\izvlecek{V članku obravnavamo načine, kako iz zaporedja števk v decimalnem zapisu realnega števila lahko določimo njegovo racionalnost oziroma iracionalnost.
+Podrobneje obravnavamo decimalno število s števkami, sestavljenimi iz zaporedja praštevil.}
 
 
+%popravi prevod
 \title{On some irrational decimal fractions}
-\abstract{In the article we discuss how to decide the irrationality of a real number based on the properties of the sequence of its decimal expansions.}
+\abstract{In the article we discuss how to decide the irrationality of a real number based on the properties of the sequence of its decimal expansions.
+We closely look at a number that has sequence of prime numbers for its decimals.}
 
 
 
@@ -38,23 +40,17 @@ Podrobneje obravnavamo decimalno s števkami sestavljenimi iz zaporedja praštev
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% UVOD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Uvodne definicije}
-V tem delu obravnavamo realna števila zapisana v obliki decimalnega zapisa,
-zato se za začetek spomnimo definicije desetiških ulomkov ter decimalnega zapisa.
-
-\begin{definicija}
-    {\em Desetiški ulomek} je ulomek, katerega imenovalec je potenca števila $10$.
-    Zapis desetiškega ulomka lahko
-    nadomestimo z zapisom z decimalno vejico, ki mu pravimo {\em decimalni zapis}.
-\end{definicija}
-
+V tem delu obravnavamo realna števila zapisana v obliki decimalnega zapisa.
 Spomnimo se razlike v decimalnem zapisu racionalnih in iracionalnih števil.
-Racionalna števila lahko zapišemo
-s končnim ali neskončnim periodičnim decimalnim zapisom, medtem ko je zapis iracionalnega števila možen 
+Racionalna števila zapišemo z neskončnim periodičnim decimalnim zapisom, 
+kjer velja dogovor da v primeru dveh ekvivalentnih zapisov istega števila izberemo tistega, katerega perioda je $0$.
+Na primer izmed zapisov $0,100 \dots$ in $0,0999 \dots$ izberemo prvega. 
+po drugi strani je zapis iracionalnega števila možen 
 le z neskončno neperiodičnimi decimalkami.
 
 Včasih pa iz zapisa decimalnega števila z neskončno decimalkami ne moremo razbrati, ali 
 se decimalke periodično ponavljajo od nekega člena dalje.
-Zanimalo nas bo, kaj lahko iz zaporedja prvih nekaj decimalk povemo o racionalnosti oziroma iracionalnosti
+Zanimalo nas bo, kaj lahko iz zaporedja števk v decimalnem zapisu povemo o racionalnosti oziroma iracionalnosti
 decimalnega števila $x$.
 Zaradi poenostavitve privzemimo, da velja $ 0 < x < 1$.
 
@@ -70,7 +66,7 @@ V ta namen podajmo naslednjo definicijo.
     \]
     kjer so $0 \leq c_i \leq 9$ za vse $i = 1, 2, \dots$.
     
-    Z $b$ označimo naravno število sestavljeno iz zaporedja števk
+    Z $b$ označimo naravno število, sestavljeno iz zaporedja števk
     $b_1b_2b_3 \dots b_s$, 
     kjer je $s\geq 1$ in $0 \leq b_i \leq 9$ za vse $i = 1, \dots, s$.
     Pravimo, da število $x$ {\em vsebuje blok števk $(b) = (b_1b_2b_3 \dots b_s)$}, če obstaja $j \geq 0$, da je 
@@ -78,7 +74,7 @@ V ta namen podajmo naslednjo definicijo.
 \end{definicija}
 
 \begin{zgled}
-    Število $0,135627$ vsebuje blok $(356)$, vendar ne vsebuje bloka $(352)$ ali $(72)$.
+    Število $0,13562777 \dots$ vsebuje blok $(356)$, vendar ne vsebuje bloka $(352)$ ali $(72)$.
 \end{zgled}
 
 Poljubno decimalno število lahko razumemo kot zaporedje blokov celih števil.
@@ -94,7 +90,7 @@ blokov praštevil.
 Po Evklidovem izreku \cite{Euc} je praštevil neskončno mnogo,
 zato njegov decimalni zapis ne more biti končen. 
 Iz zapisa pa ne moremo razbrati, ali 
-je po nekem členu decimalno število periodično, zato ni očitno, ali je število racionalno.
+je po nekem členu decimalno število periodično. Zato ni očitno, ali je število racionalno ali iracionalno.
 Trdimo naslednje:
 
 \begin{trditev}\label{trditev praštevila}
@@ -124,7 +120,7 @@ $s$ narašča tudi število ničel v posameznem bloku, kar pomeni, da po še tak
 
 \section{Decimalna števila z naraščajočimi bloki}
 
-V prejšnjem razdelku smo dokazali, da je decimalno število sestavljeno iz praštevilskih
+V prejšnjem razdelku smo dokazali, da je decimalno število, sestavljeno iz praštevilskih
 blokov iracionalno. Kaj pa lahko povemo za decimalno število, sestavljeno iz poljubnih blokov?
 
 Naj bo $1 \leq a_1 < a_2 < \dots $ strogo naraščajoče zaporedje naravnih števil. 
@@ -160,7 +156,7 @@ Za dokaz izreka \ref{irac1} bomo potrebovali naslednjo lemo.
 \end{lema}
 
 \begin{opomba}
-    V lemi, v nasprotju z definicijo \ref{defincija blokov}, obravnavamo vsebovanost blokov v naravnih
+    V lemi \ref{lema bloki}, v nasprotju z definicijo \ref{defincija blokov}, obravnavamo vsebovanost blokov v naravnih
     in ne decimalnih številih. Definicijo zato prilagodimo tako, da le spremenimo potenco števila
     $10$ v vsoti. Celo število $x$ tako zapišemo kot 
     \[ 
@@ -175,9 +171,9 @@ Za dokaz izreka \ref{irac1} bomo potrebovali naslednjo lemo.
 {\em Dokaz leme \ref{lema bloki}:\/} 
 Označimo delno vsoto vrste 
 \[ S_n = \frac{1}{x_1} + \frac{1}{x_2} + \frac{1}{x_3} + \dots + \frac{1}{x_n} \ . \]
-Vzemimo tak $t \in \NN $, da velja $x_{t-1} < 10^s \leq x_t$. Število števk bloka $(b) = (b_1b_2b_3 \dots b_s)$
+Vzemimo tak $t \in \NN $, $t < n$, da velja $x_{t-1} < 10^s \leq x_t$. Število števk bloka $(b) = (b_1b_2b_3 \dots b_s)$
 je očitno $s$, število $10^s$ pa ima $s+1$ števk, kar pomeni, da imajo vsi $x_i$ za $i \geq t$
-več števk kot je dolžina bloka. 
+več števk, kot je dolžina bloka. 
 
 Delno vsoto sedaj preoblikujemo v
 \[ 
@@ -187,13 +183,13 @@ Delno vsoto sedaj preoblikujemo v
     \end{split}
      \]
 kjer smo v neenakosti upoštevali, da za poljuben $y > 0$ velja $y \geq \lfloor y \rfloor$.
+Oznaka $\lfloor \cdot \rfloor$ označuje funkcijo celi del.
 
 Ker za vsak $\ t < i \leq n$ velja $10^s \leq x_i$, je $\lfloor \frac{x_i}{10^s} \rfloor$ pozitivno celo število.
 To število lahko interpretiramo kot $x_i$ brez zadnjih $s$ števk. 
 Ker noben $x_i \in X$ ne vsebuje bloka $(b)$, 
 ga očitno ne vsebuje niti njegovih prvih nekaj števk. 
-Od tod sledi, da za vsak $x_i, \ t < i \leq n$, obstaja $x_y \in X$,
-tako da $ x_y = \lfloor \frac{x_i}{10^s} \rfloor$.
+Od tod sledi, da za vsak $x_i, \ t < i \leq n$, obstaja tak $x_y \in X$, da $ x_y = \lfloor \frac{x_i}{10^s} \rfloor$.
 
 Novo nastala števila, pa so si lahko med seboj enaka. Tako bi na primer za $s=2$ veljalo 
 $ \lfloor\frac{12345}{10^2}\rfloor = \lfloor \frac{12387}{10^2}\rfloor = 123$.
@@ -204,11 +200,11 @@ Torej lahko poljuben $x_y \in X$ zadošča za največ $10^s - 1$ možnih $x_i$, 
 Ponovno si poglejmo primer, ko je $s=2$, ter vzemimo $x_y = 123$. Za število $x_i$ bomo torej lahko vzeli števila oblike $123 \square \square$,
 ki ne bodo za nobeni dve zaporedni števki imela bloka $(b_1b_2)$. 
 Zato očitno za zadnji dve števki (označeni s kvadratkoma) ne bomo mogli vzeti števk $b_1b_2$. 
-Od tod bo sledilo da obstaja največ $10^2 - 1$ ustreznih števil $x_i$.
+Od tod bo sledilo, da obstaja največ $10^2 - 1$ ustreznih števil $x_i$.
 
 Po zgornjem premisleku lahko sedaj ocenimo izraz 
 \[(\frac{1}{ \lfloor\frac{x_{t + 1}}{10^s}\rfloor} + \dots + \frac{1}{\lfloor\frac{x_n}{10^s}\rfloor}) < (10^s - 1)S_n.\]
-S pomnožitvijo $(10^s - 1)$ s $S_n$ smo tako zagotovo zajeli vse člene na levi strani neenakosti
+S tem, da smo $S_n$ pomnožili z $(10^s - 1)$, smo zagotovo zajeli vse člene na levi strani neenakosti
 z upoštevanjem vseh možnih ponovitev v vrednostih $\lfloor\frac{x_i}{10^s}\rfloor$.
 Če to oceno uporabimo na delni vsoti, dobimo:
 \[
@@ -225,9 +221,10 @@ Desna stran neenačbe je neodvisna od $n$, zato vrsta konvergira.
 % ---------------------- DOKAZ IZREKA 1 ---------------------------------------
 \noindent
 {\em Dokaz izreka \ref{irac1}:\/} Naj bo $\{a_i\}_{i\in \NN}$ strogo naraščajoče zaporedje
-celih števil za katero velja $\sum_{i=1}^{\infty}\frac{1}{a_i} = \infty$. Izrek bomo dokazali
-s protislovjem. Predpostavimo, da je $Dec\{a_i\} = 0,(a_1)(a_2) \dots \in \QQ$. To decimalno
-število očitno ni končno, torej je periodično. 
+celih števil, za katero velja $\sum_{i=1}^{\infty}\frac{1}{a_i} = \infty$. Izrek bomo dokazali
+s protislovjem. Predpostavimo, da je $Dec\{a_i\} = 0,(a_1)(a_2) \dots \in \QQ$. 
+To decimalno
+število nima končnega decimalnega zapisa in ima torej periodičen decimalni zapis.
 To pomeni, da obstaja nek blok števil $(b) = (b_1b_2b_3 \dots b_s)$,
 ki se v decimalnem zapisu periodično ponavlja od nekega mesta dalje. 
 
@@ -242,12 +239,12 @@ Razdelimo vsoto glede na vsebovanost členov $a_i$ v $Y$:
     \sum_{i=1}^{\infty} \frac{1}{a_i} = \sum_{a_i \in Y}\frac{1}{a_i} + \sum_{a_i \notin Y} \frac{1}{a_i}
     \]
 
-Po predpostavki vrsta na levi strani enačaja divergira in po lemi vrsta $\sum_{a \in Y}\frac{1}{a}$
+Po predpostavki vrsta na levi strani enačaja divergira in po lemi \ref{lema bloki} vrsta $\sum_{a \in Y}\frac{1}{a}$
 konvergira. Od tod sledi, da vrsta $\sum_{a \notin Y} \frac{1}{a}$ divergira.
 To pomeni, da obstaja neskončno $a_i$ v $Dec\{a_i\} = 0,(a_1)(a_2) \dots$, ki vsebujejo blok 
 $(c_1c_2\dots c_{2s})$. Ta blok je dvakrat daljši kot blok $(b)$ in z drugačnimi števkami, zato se ne more
 zgoditi, da bi bil $(c)$ vsebovan v $(b)$ ali sestavljal njegove dele. 
-Blok $(b)$ se zato ne ponavlja v neskončnosti in posledično $Dec\{a_i\}$ ne more biti periodično.
+Blok $(b)$ se zato ne ponovi neskončnokrat in posledično $Dec\{a_i\}$ ne more biti periodično.
 
 \QED
 
@@ -255,7 +252,7 @@ Blok $(b)$ se zato ne ponavlja v neskončnosti in posledično $Dec\{a_i\}$ ne mo
 
 Dokazan izrek poda kriterij iracionalnosti števila $Dec\{a_k\}$,
 ki pa odpove za marsikatero zaporedje $\{a_k\}$.
-Tako na primer kriterij ne pove nič o iracionalnosti števila $Dec\{k^2\}$, saj vrsta $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
+Tako, na primer, kriterij ne pove nič o iracionalnosti števila $Dec\{k^2\}$, saj vrsta $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
 
 Predpostavimo, da zaporedje $a_k$ narašča kot $e^{\sqrt{k}}$.
 Ker je $\frac{1}{e^{\sqrt{x}}}$ zvezna, pozitivna in padajoča na $[1, \infty)$,
@@ -274,7 +271,7 @@ V nadaljevanju bomo pokazali, da je $Dec\{a_k\}$ iracionalno, tudi kadar $\{a_k\
 
 \begin{izrek}
     \label{izrek1clanek2}
-    Naj bo $Dec\{a_k\} \in \QQ$. Potem obstaja $x \in \RR, \ x > 1$, in pozitivna konstanta $C$,
+    Naj bo $Dec\{a_k\} \in \QQ$. Potem obstajata tak $x \in \RR, \ x > 1$, in taka pozitivna konstanta $C$,
     da velja $a_k \geq Cx^k$ za vsak $k \geq 1$.
 \end{izrek}
 
@@ -306,7 +303,7 @@ Sledi, da je $Dec\{a_k\}$ iracionalno.
 \\
 
 \begin{zgled}
-    S pomočjo posledice \ref{posledica} lahko sedaj preverimo ali je $Dec\{k^2\}$ iracionalno.
+    S pomočjo posledice \ref{posledica} lahko sedaj preverimo, ali je $Dec\{k^2\}$ iracionalno.
     Po posledici je število $0,149162536\dots$ iracionalno, če je $\sum_{k=1}^{\infty}\frac{y^k}{k^2} = \infty$
     za vsak $y > 1$. Uporabimo kvocientni kriterij in preverimo konvergenco vrste.
     \[
@@ -319,7 +316,7 @@ Sledi, da je $Dec\{a_k\}$ iracionalno.
 \noindent
 {\em Dokaz posledice \ref{posledica}:\/}
 Dokazujemo s protislovjem. Predpostavimo, da je $Dec\{a_k\} \in \QQ$.
-Po izreku \ref{izrek1clanek2} obstaja realno število $x > 1$ in konstanta $C>0$, da velja
+Po izreku \ref{izrek1clanek2} obstajata tako realno število $x > 1$ in taka konstanta $C>0$, da velja
 $a_k \geq Cx^k$ za vsak $k \geq 1$. Ta izraz preoblikujemo in dobimo:
 \[
     \frac{\sqrt{x^k}}{a_k} \leq \frac{1}{C\sqrt{x^k}}.\] 
@@ -333,8 +330,8 @@ Torej bo $Dec\{a_k\}$ iracionalno.
 
 \noindent
 {\em Dokaz izreka \ref{izrek1clanek2}:\/} Predpostavimo, da $Dec\{a_k\} = 0,(a_1)(a_2)\dots \in \QQ$,
- torej je periodično od nekega člena dalje. Naj bo
-$(b_1b_2 \dots b_p), \ 0 \leq b_i \leq 9$ za vsak $i = 1, \dots 9$, perioda in naj bo
+ torej je decimalni zapis periodičen od neke decimalke dalje. Naj bo
+$(b_1b_2 \dots b_p), \ 0 \leq b_i \leq 9$ za vsak $i = 1, \dots p$, perioda in naj bo
 $(a_m)$ prvi blok, ki se pojavi v periodičnem delu decimalnega zapisa.
 
 Najprej dokažimo, da ima blok $(a_{k+p})$ vsaj eno števko več kot blok $(a_k)$ za vsak $k \geq m$.
@@ -378,7 +375,7 @@ Definirajmo $C' := 10^{-\frac{m + 2p}{2p}}$ in $x := 10^{\frac{1}{2p}}$, za kar 
 \end{equation}
 kjer smo upoštevali, da je $\{a_k\}$ zaporedje naravnih števil in je zato $a_m \geq 1$.
 
-Če sedaj združimo neenačbi \ref{enacba1} in \ref{enacba2}, dobimo 
+Če sedaj združimo neenačbi (\ref{enacba1}) in (\ref{enacba2}), dobimo 
 $a_l \geq C'x^l$ za vsak $l \geq m$.
 Po potrebi zmanjšamo $C'$ na $C>0$, da bo neenakost veljala
 za vse $k \geq 1$.
