@@ -45,7 +45,7 @@ Spomnimo se razlike v decimalnem zapisu racionalnih in iracionalnih števil.
 Racionalna števila zapišemo z neskončnim periodičnim decimalnim zapisom, 
 kjer velja dogovor da v primeru dveh ekvivalentnih zapisov istega števila izberemo tistega, katerega perioda je $0$.
 Na primer izmed zapisov $0,100 \dots$ in $0,0999 \dots$ izberemo prvega. 
-po drugi strani je zapis iracionalnega števila možen 
+Po drugi strani je zapis iracionalnega števila možen 
 le z neskončno neperiodičnimi decimalkami.
 
 Včasih pa iz zapisa decimalnega števila z neskončno decimalkami ne moremo razbrati, ali 
@@ -133,6 +133,11 @@ Zanimajo nas lastnosti zaporedja $\{a_k\}$, ki nam zagotovijo, da bo $Dec\{a_k\}
     \[ \sum_{i=1}^{\infty} \frac{1}{a_i} = \infty ,\]
     potem je $Dec\{a_k\}$ iracionalno.
 \end{izrek}
+
+\begin{opomba}
+    Obrat izreka ne velja. V nadaljevanju bomo pokazali, da je decimalno število $Dec\{k^2\}$ irracionalno,
+    vendar vrsta $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
+\end{opomba}
 
 Ta izrek je posplošitev trditve \ref{trditev praštevila}, ki pravi, da je število $0,23571113 \dots$
 iracionalno. Za zaporedje praštevil $2, 3, 5, 7, \dots$ namreč velja
@@ -253,21 +258,24 @@ Blok $(b)$ se zato ne ponovi neskončnokrat in posledično $Dec\{a_i\}$ ne more 
 Dokazan izrek poda kriterij iracionalnosti števila $Dec\{a_k\}$,
 ki pa odpove za marsikatero zaporedje $\{a_k\}$.
 Tako, na primer, kriterij ne pove nič o iracionalnosti števila $Dec\{k^2\}$, saj vrsta $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
+Z naslednjim izrekom bomo pokazali, da je tudi to decimalno število iracionalno.
 
-Predpostavimo, da zaporedje $a_k$ narašča kot $e^{\sqrt{k}}$.
-Ker je $\frac{1}{e^{\sqrt{x}}}$ zvezna, pozitivna in padajoča na $[1, \infty)$,
-lahko konvergenco vrste preverimo z uporabo integralskega kriterija.
+% IZREŽEMO VEN - NI POTREBNO!
+%Predpostavimo, da zaporedje $a_k$ narašča kot $e^{\sqrt{k}}$.
+%Ker je $\frac{1}{e^{\sqrt{x}}}$ zvezna, pozitivna in padajoča na $[1, \infty)$,
+%lahko konvergenco vrste preverimo z uporabo integralskega kriterija.
+%
+%\[
+%    \begin{split}
+%    \int_1^{\infty}\frac{1}{e^{\sqrt{x}}}dx &= 2e^{-\sqrt{x}}(- \sqrt{x} - 1) \big|_1^{\infty} = \\
+%    &= -\frac{4}{e}
+%    \end{split}
+%\]
+%Zgornji integral konvergira, zato je vrsta $\sum_1^{\infty}\frac{1}{e^{\sqrt{x}}}$ konvergentna
+%in s tem tudi vrsta $\sum_1^{\infty}\frac{1}{a_k}$.
+%
+%V nadaljevanju bomo pokazali, da je $Dec\{a_k\}$ iracionalno, tudi kadar $\{a_k\}$ narašča kot $e^{\sqrt{k}}$.
 
-\[
-    \begin{split}
-    \int_1^{\infty}\frac{1}{e^{\sqrt{x}}}dx &= 2e^{-\sqrt{x}}(- \sqrt{x} - 1) \big|_1^{\infty} = \\
-    &= -\frac{4}{e}
-    \end{split}
-\]
-Zgornji integral konvergira, zato je vrsta $\sum_1^{\infty}\frac{1}{e^{\sqrt{x}}}$ konvergentna
-in s tem tudi vrsta $\sum_1^{\infty}\frac{1}{a_k}$.
-
-V nadaljevanju bomo pokazali, da je $Dec\{a_k\}$ iracionalno, tudi kadar $\{a_k\}$ narašča kot $e^{\sqrt{k}}$.
 
 \begin{izrek}
     \label{izrek1clanek2}
@@ -291,16 +299,17 @@ $\sum_{i=1}^{\infty} \frac{1}{a_i}$, očitno implicira
 pogoj iz zgornje posledice, torej da $\sum_{k=1}^{\infty}\frac{y^k}{a_k}$
 divergira za vsak $y > 1$.
 
-Po drugi strani pa bo iz posledice sledilo, da so $Dec\{a_k\}$ iracionalna tudi za zaporedja
-$\{a_k\}$, ki naraščajo kot $e^{\sqrt{k}}$, oz. kot $e^{k^s}$ za $0 < s < 1$. 
-Pogoj iz posledice preverimo z uporabo korenskega kriterija za konvergenco vrste:
-\[
-    r = \lim_{k \rightarrow \infty}\sqrt[k]{\frac{y^k}{e^{\sqrt{k}}}} = \lim_{k \rightarrow \infty}\frac{y}{e^{\frac{1}{\sqrt{k}}}}
-    = y.
-\]
-Po predpostavki iz posledice je $y > 1$, zato vrsta divergira. 
-Sledi, da je $Dec\{a_k\}$ iracionalno.
-\\
+%IZPUSTIMO
+%Po drugi strani pa bo iz posledice sledilo, da so $Dec\{a_k\}$ iracionalna tudi za zaporedja
+%$\{a_k\}$, ki naraščajo kot $e^{\sqrt{k}}$, oz. kot $e^{k^s}$ za $0 < s < 1$. 
+%Pogoj iz posledice preverimo z uporabo korenskega kriterija za konvergenco vrste:
+%\[
+%    r = \lim_{k \rightarrow \infty}\sqrt[k]{\frac{y^k}{e^{\sqrt{k}}}} = \lim_{k \rightarrow \infty}\frac{y}{e^{\frac{1}{\sqrt{k}}}}
+%    = y.
+%\]
+%Po predpostavki iz posledice je $y > 1$, zato vrsta divergira. 
+%Sledi, da je $Dec\{a_k\}$ iracionalno.
+%\\
 
 \begin{zgled}
     S pomočjo posledice \ref{posledica} lahko sedaj preverimo, ali je $Dec\{k^2\}$ iracionalno.
@@ -332,7 +341,10 @@ Torej bo $Dec\{a_k\}$ iracionalno.
 {\em Dokaz izreka \ref{izrek1clanek2}:\/} Predpostavimo, da $Dec\{a_k\} = 0,(a_1)(a_2)\dots \in \QQ$,
  torej je decimalni zapis periodičen od neke decimalke dalje. Naj bo
 $(b_1b_2 \dots b_p), \ 0 \leq b_i \leq 9$ za vsak $i = 1, \dots p$, perioda in naj bo
-$(a_m)$ prvi blok, ki se pojavi v periodičnem delu decimalnega zapisa.
+$(a_m)$ prvi tak blok, ki je v celoti vsebovan v periodičnem delu decimalnega zapisa.
+To pa ne pomeni nujno, da je $(a_m) \subseteq (b_1b_2 \dots b_p)$. Lahko se zgodi, da je prvih par števk
+$(a_m)$ vsebovanih v prvi periodi, ostale števke pa v drugi. Če je število števk v $(a_m)$ večje kot $p$,
+lahko blok $(a_m)$ pokriva tudi več period.
 
 Najprej dokažimo, da ima blok $(a_{k+p})$ vsaj eno števko več kot blok $(a_k)$ za vsak $k \geq m$.
 Predpostavimo, da imata $(a_{k+p})$ in $(a_k)$ oba po $N$ števk. 
