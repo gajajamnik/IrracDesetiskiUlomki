@@ -97,7 +97,7 @@ je po nekem členu decimalno število periodično. Zato ni očitno, ali je štev
 Trdimo naslednje:
 
 \begin{trditev}\label{trditev praštevila}
-    Število $0,23571113 \dots$ je iracionalno.
+    Število $0{,}23571113 \dots$ je iracionalno.
 \end{trditev}
 
 Za dokaz te trditve bomo potrebovali različico Dirichletovega izreka \cite{Vog}, ki pravi naslednje:
@@ -111,12 +111,11 @@ Za dokaz te trditve bomo potrebovali različico Dirichletovega izreka \cite{Vog}
 \noindent
 {\em Dokaz trditve \ref{trditev praštevila}:\/} Naj bo $s \geq 0$ celo število. 
 Po Dirichletovem izreku \ref{izrek: Dirichlet} vsako zaporedje
-$ \{10^{s+1}k + 1\}_{k \in \NN}$,  vsebuje neskončno praštevil. Torej obstajajo praštevila
+$ \{10^{s+1}k + 1 \}_{k \in \NN}$,  vsebuje neskončno praštevil. Torej obstajajo praštevila
 oblike $(k)\underbrace{00 \dots}_{s}1$, kjer števkam števila $k$ sledi $s$ ničel ter ena enica. 
 
-Decimalno število $0,23571113\dots$ očitno vsebuje vse bloke take oblike za vsak $s \geq 0$. Z večanjem števila
+Decimalno število $0{,}23571113\dots$ očitno vsebuje vse bloke take oblike za vsak $s \geq 0$. Z večanjem števila
 $s$ narašča tudi število ničel v posameznem bloku, kar pomeni, da po še tako pozni decimalki zapis ne bo periodičen.
-
 \QED
 
 %%%%%%%%%%%%%%%%%%% DECIMALNA ŠT Z NARAŠČAJOČIMI BLOKI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -124,17 +123,17 @@ $s$ narašča tudi število ničel v posameznem bloku, kar pomeni, da po še tak
 \section{Decimalna števila z naraščajočimi bloki}
 
 V prejšnjem razdelku smo dokazali, da je decimalno število, sestavljeno iz praštevilskih
-blokov iracionalno. Kaj pa lahko povemo za decimalno število, sestavljeno iz poljubnih blokov?
+blokov, iracionalno. Kaj pa lahko povemo za decimalno število, sestavljeno iz poljubnih blokov?
 
 Naj bo $1 \leq a_1 < a_2 < \dots $ strogo naraščajoče zaporedje naravnih števil. 
-Označimo: \[Dec\{a_k\} = 0,(a_1)(a_2)(a_3)... \  \ ; k \in \NN, \ a_k \in \NN . \]
-Zanimajo nas lastnosti zaporedja $\{a_k\}$, ki nam zagotovijo, da bo $Dec\{a_k\}$ iracionalno.
+Označimo: \[\text{Dec}\{a_k\} = 0,(a_1)(a_2)(a_3)... \  \ ; k \in \NN, \ a_k \in \NN . \]
+Zanimajo nas lastnosti zaporedja $\{a_k\}$, ki nam zagotovijo, da bo $\text{Dec}\{a_k\}$ iracionalno.
 
 \begin{izrek}\label{irac1}
     
     Če za strogo naraščajoče zaporedje naravnih števil $\{a_i\}_{i \in \NN}$ velja 
     \[ \sum_{i=1}^{\infty} \frac{1}{a_i} = \infty ,\]
-    potem je $Dec\{a_k\}$ iracionalno.
+    potem je $\text{Dec}\{a_k\}$ iracionalno.
 \end{izrek}
 
 \begin{opomba}
@@ -142,7 +141,7 @@ Zanimajo nas lastnosti zaporedja $\{a_k\}$, ki nam zagotovijo, da bo $Dec\{a_k\}
     vendar vrsta $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
 \end{opomba}
 
-Ta izrek je posplošitev trditve \ref{trditev praštevila}, ki pravi, da je število $0,23571113 \dots$
+Ta izrek je posplošitev trditve \ref{trditev praštevila}, ki pravi, da je število $0{,}23571113 \dots$
 iracionalno. Za zaporedje praštevil $2, 3, 5, 7, \dots$ namreč velja
 \[
     \sum_{p \ \text{praštevilo}}\frac{1}{p} = \frac{1}{2} + \frac{1}{3} + \frac{1}{5} + \frac{1}{7} + \dots = \infty ,\]
@@ -151,7 +150,7 @@ kar je leta 1737 dokazal Leonhard Euler v \cite{Eul}.
 Izrek pa lahko uporabimo tudi za druga decimalna števila.
 
 \begin{zgled}
-    Decimalno število $Dec\{7n\} = 0,714212835\dots (7n) \dots$ je iracionalno, saj
+    Decimalno število $\text{Dec}\{7n\} = 0{,}714212835\dots (7n) \dots$ je iracionalno, saj
     vrsta $\sum_{k=1}^{\infty}\frac{1}{7n} $ divergira.
 \end{zgled}
 
@@ -199,7 +198,7 @@ Ker noben $x_i \in X$ ne vsebuje bloka $(b)$,
 ga očitno ne vsebuje niti njegovih prvih nekaj števk. 
 Od tod sledi, da za vsak $x_i, \ t < i \leq n$, obstaja tak $x_y \in X$, da $ x_y = \lfloor \frac{x_i}{10^s} \rfloor$.
 
-Novo nastala števila, pa so si lahko med seboj enaka. Tako bi na primer za $s=2$ veljalo 
+Novo nastala števila pa so si lahko med seboj enaka. Tako bi na primer za $s=2$ veljalo 
 $ \lfloor\frac{12345}{10^2}\rfloor = \lfloor \frac{12387}{10^2}\rfloor = 123$.
 
 Opazimo, da se blok $(b_1b_2b_3 \dots b_s)$ pojavi v vsaj enem od prvih $10^s$ naravnih števil.
@@ -223,14 +222,13 @@ od koder sledi
     S_n < 10^s \sum_{i=1}^t \frac{1}{x_i}.
 \]
 Desna stran neenačbe je neodvisna od $n$, zato vrsta konvergira.
-
 \QED
 
 % ---------------------- DOKAZ IZREKA 1 ---------------------------------------
 \noindent
 {\em Dokaz izreka \ref{irac1}:\/} Naj bo $\{a_i\}_{i\in \NN}$ strogo naraščajoče zaporedje
 celih števil, za katero velja $\sum_{i=1}^{\infty}\frac{1}{a_i} = \infty$. Izrek bomo dokazali
-s protislovjem. Predpostavimo, da je $Dec\{a_i\} = 0,(a_1)(a_2) \dots \in \QQ$. 
+s protislovjem. Predpostavimo, da je $\text{Dec}\{a_i\} = 0{,}(a_1)(a_2) \dots \in \QQ$. 
 To decimalno
 število nima končnega decimalnega zapisa in ima torej periodičen decimalni zapis.
 To pomeni, da obstaja nek blok števil $(b) = (b_1b_2b_3 \dots b_s)$,
@@ -249,18 +247,17 @@ Razdelimo vsoto glede na vsebovanost členov $a_i$ v $Y$:
 
 Po predpostavki vrsta na levi strani enačaja divergira in po lemi \ref{lema bloki} vrsta $\sum_{a \in Y}\frac{1}{a}$
 konvergira. Od tod sledi, da vrsta $\sum_{a \notin Y} \frac{1}{a}$ divergira.
-To pomeni, da obstaja neskončno $a_i$ v $Dec\{a_i\} = 0,(a_1)(a_2) \dots$, ki vsebujejo blok 
+To pomeni, da obstaja neskončno $a_i$ v $Dec\{a_i\} = 0{,}(a_1)(a_2) \dots$, ki vsebujejo blok 
 $(c_1c_2\dots c_{2s})$. Ta blok je dvakrat daljši kot blok $(b)$ in z drugačnimi števkami, zato se ne more
 zgoditi, da bi bil $(c)$ vsebovan v $(b)$ ali sestavljal njegove dele. 
-Blok $(b)$ se zato ne ponovi neskončnokrat in posledično $Dec\{a_i\}$ ne more biti periodično.
-
+Blok $(b)$ se zato ne ponovi neskončnokrat in posledično $\text{Dec}\{a_i\}$ ne more biti periodično.
 \QED
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Dokazan izrek poda kriterij iracionalnosti števila $Dec\{a_k\}$,
+Dokazan izrek poda kriterij iracionalnosti števila $\text{Dec}\{a_k\}$,
 ki pa odpove za marsikatero zaporedje $\{a_k\}$.
-Tako, na primer, kriterij ne pove nič o iracionalnosti števila $Dec\{k^2\}$, saj vrsta $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
+Tako, na primer, kriterij ne pove nič o iracionalnosti števila $\text{Dec}\{k^2\}$, saj vrsta $\sum_{k=1}^{\infty}\frac{1}{k^2}$ konvergira.
 Z naslednjim izrekom bomo pokazali, da je tudi to decimalno število iracionalno.
 
 % IZREŽEMO VEN - NI POTREBNO!
@@ -282,18 +279,18 @@ Z naslednjim izrekom bomo pokazali, da je tudi to decimalno število iracionalno
 
 \begin{izrek}
     \label{izrek1clanek2}
-    Naj bo $Dec\{a_k\} \in \QQ$. Potem obstajata tak $x \in \RR, \ x > 1$, in taka pozitivna konstanta $C$,
+    Naj bo $\text{Dec}\{a_k\} \in \QQ$. Potem obstajata tak $x \in \RR, \ x > 1$, in taka pozitivna konstanta $C$,
     da velja $a_k \geq Cx^k$ za vsak $k \geq 1$.
 \end{izrek}
 
-Izrek pove, da če je $Dec\{a_k\}$ racionalno, potem zaporedje $a_k$ narašča vsaj eksponentno.
+Izrek pove, da če je $\text{Dec}\{a_k\}$ racionalno, potem zaporedje $a_k$ narašča vsaj eksponentno.
 
 \begin{posledica}
     \label{posledica}
     Predpostavimo, da velja
     \[
         \sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty\]
-    za vsak $y > 1$. Potem je decimalno število $Dec\{a_k\}$ iracionalno.
+    za vsak $y > 1$. Potem je decimalno število $\text{Dec}\{a_k\}$ iracionalno.
 \end{posledica}
 
 Zgornja posledica je močnejša kot izrek \ref{irac1}. 
@@ -315,19 +312,19 @@ divergira za vsak $y > 1$.
 %\\
 
 \begin{zgled}
-    S pomočjo posledice \ref{posledica} lahko sedaj preverimo, ali je $Dec\{k^2\}$ iracionalno.
-    Po posledici je število $0,149162536\dots$ iracionalno, če je $\sum_{k=1}^{\infty}\frac{y^k}{k^2} = \infty$
+    S pomočjo posledice \ref{posledica} lahko sedaj preverimo, ali je $\text{Dec}\{k^2\}$ iracionalno.
+    Po posledici je število $0{,}149162536\dots$ iracionalno, če je $\sum_{k=1}^{\infty}\frac{y^k}{k^2} = \infty$
     za vsak $y > 1$. Uporabimo kvocientni kriterij in preverimo konvergenco vrste.
     \[
         L = \lim_{k \rightarrow \infty} \frac{\frac{y^{k+1}}{(k+1)^2}}{\frac{y^k}{k^2}}
         = y \lim_{k \rightarrow \infty} \big (\frac{k}{k + 1}\big)^2 = y > 1
     \]
-    Vrsta divergira, zato je $Dec\{k^2\} \in \RR \setminus \QQ$.
+    Vrsta divergira, zato je $\text{Dec}\{k^2\} \in \RR \setminus \QQ$.
 \end{zgled}
 
 \noindent
 {\em Dokaz posledice \ref{posledica}:\/}
-Dokazujemo s protislovjem. Predpostavimo, da je $Dec\{a_k\} \in \QQ$.
+Dokazujemo s protislovjem. Predpostavimo, da je $\text{Dec}\{a_k\} \in \QQ$.
 Po izreku \ref{izrek1clanek2} obstajata tako realno število $x > 1$ in taka konstanta $C>0$, da velja
 $a_k \geq Cx^k$ za vsak $k \geq 1$. Ta izraz preoblikujemo in dobimo:
 \[
@@ -336,12 +333,11 @@ Od tod sledi
 \[ \sum_{k=1}^{\infty} \frac{\sqrt{x^k}}{a_k} \leq C^{-1} \sum_{k=1}^{\infty} \frac{1}{\sqrt{x^k}} < \infty.\]
 Desna vsota je ravno geometrijska vrsta, ki konvergira, saj je $x > 1$ in s tem $\sqrt{x} > 1$.
 To pa je v protislovjem s predpostavko, ki pravi, da $\sum_{k=1}^{\infty}\frac{y^k}{a_k} = \infty$ za vsak $y>1$.
-Torej bo $Dec\{a_k\}$ iracionalno.
-
+Torej bo $\text{Dec}\{a_k\}$ iracionalno.
 \QED
 
 \noindent
-{\em Dokaz izreka \ref{izrek1clanek2}:\/} Predpostavimo, da $Dec\{a_k\} = 0,(a_1)(a_2)\dots \in \QQ$,
+{\em Dokaz izreka \ref{izrek1clanek2}:\/} Predpostavimo, da $\text{Dec}\{a_k\} = 0{,}(a_1)(a_2)\dots \in \QQ$,
  torej je decimalni zapis periodičen od neke decimalke dalje. Naj bo
 $(b_1b_2 \dots b_p), \ 0 \leq b_i \leq 9$ za vsak $i = 1, \dots p$, perioda in naj bo
 $(a_m)$ prvi tak blok, ki je v celoti vsebovan v periodičnem delu decimalnega zapisa.
@@ -394,24 +390,35 @@ kjer smo upoštevali, da je $\{a_k\}$ zaporedje naravnih števil in je zato $a_m
 $a_l \geq C'x^l$ za vsak $l \geq m$.
 Po potrebi zmanjšamo $C'$ na $C>0$, da bo neenakost veljala
 za vse $k \geq 1$.
-
 \QED
 
 
+%%%%%%%%%%%%%%%%%%%%%%% ZAKLJUCEK %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\section{Zaključek}
+V članku smo spoznali nekaj kriterijev za določitev iracionalnosti realnega števila,
+ki pa odpovejo v mnogih primerih. 
+Omenimo še, da obstajajo podobni kriteriji, ki jih v tem članku nismo omenili. 
+V \cite{Mer} je na primer dokazan izrek, ki pravi, da če obstaja tako celo število 
+$r \geq 0$, da vrsta
+$\sum_{k=1}^{\infty}\frac{k^r}{a_k}$
+divergira, potem je $\text{Dec}\{a_k\}$ iracionalno.
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%% VIRI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{thebibliography}{1}
+    \bibitem{Euc}
+    \emph{Euclid's theorem (mathematics)}, v: Wikipedia, The Free Encyclopedia, [ogled 8.~7.~2022], 
+    dostopno na \url{https://en.wikipedia.org/wiki/Euclid%27s_theorem}.
+    \bibitem{Vog}
+    J.~Vogrinc, \emph{Dirichletov izrek in karakterizacija praštevil}, 
+    magistrsko delo, Fakulteta za matematiko in fiziko, Univerza v Ljubljani, 2013.
     \bibitem{Eul}
     L.~Euler, \emph{Variae observationes circa series infinitas},
     Commen.~Academ.~Scient.~Petropolitanae \textbf{9} (1737), 160-188.
 
-    \bibitem{HaW}
-    G.~H.~Hardy in E.~M.~Wright, \emph{An introduction to the theory of numbers}, 
-    5. izdaja, Clarendon Press, Oxford, 1970.
     \bibitem{Heg}
     N.~Hegyvari, \emph{On some irrational decimal fractions},
     Amer.~Math.~Monthly \textbf{100(8)}  (Oct., 1993),  779-780.
@@ -421,12 +428,8 @@ za vse $k \geq 1$.
     \bibitem{Mer}
     A.~McD.~Mercer, \emph{A note on some irrational decimal fractions},
     Amer.~Math.~Monthly \textbf{101(6)}  (Jun.-Jul., 1994),  567-568.
-    \bibitem{Vog}
-    J.~Vogrinc, \emph{Dirichletov izrek in karakterizacija praštevil}, 
-    magistrsko delo, Fakulteta za matematiko in fiziko, Univerza v Ljubljani, 2013.
-    \bibitem{Euc}
-    \emph{Euclid's theorem (mathematics)}, v: Wikipedia, The Free Encyclopedia, [ogled 8.~7.~2022], 
-    dostopno na \url{https://en.wikipedia.org/wiki/Euclid%27s_theorem}.
+
+
     
 \end{thebibliography}
 

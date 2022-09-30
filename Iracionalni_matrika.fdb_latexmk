@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1664500581 "c:/Users/tina/Documents/GAJA/FAKS/CLANEK/IrracDesetiskiUlomki-1/Iracionalni_matrika.tex" "Iracionalni_matrika.pdf" "Iracionalni_matrika" 1664500583
+["pdflatex"] 1664567499 "c:/Users/tina/Documents/GAJA/FAKS/CLANEK/IrracDesetiskiUlomki-1/Iracionalni_matrika.tex" "Iracionalni_matrika.pdf" "Iracionalni_matrika" 1664567501
   "C:/Users/tina/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1664499871 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/tina/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1664499788 10786437 c185473532606249cb02a5b36ba88ba5 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -14,6 +14,8 @@
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/tfm/public/ae/aer8.tfm" 1057861800 6088 ce5fd064721af4ab5ebb4c0bd801226f ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/tfm/public/ae/aer9.tfm" 1057861800 6076 dd5a5352d066d5b2d2092b63c8cabf28 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/tfm/public/ae/aeti10.tfm" 1057861800 7236 91161c92aeeced20d93e1ef8554f8511 ""
+  "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/tfm/public/ae/aeti7.tfm" 1057861800 7244 688e1bc8e17144e9b40690b2f1a4c776 ""
+  "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/tfm/public/ae/aeti8.tfm" 1057861800 7240 8bfffde76f06187a03410476d99649d4 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/tfm/public/ae/aeti9.tfm" 1057861800 7240 b5c2a48053d60f3c984fb3fe77523873 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/tfm/public/ae/aett9.tfm" 1057861800 1380 19ca13114324160be390bab24cecf734 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
@@ -135,9 +137,9 @@
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/tex/latex/units/units.sty" 1469029150 2206 65ad9fb19763b1681bea4cb389fe84f8 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/tex/xelatex/xetexconfig/crop.cfg" 1169254494 305 57c5d049d73b46b49f97b41eaa29558b ""
-  "Iracionalni_matrika.aux" 1664500583 2023 df2b138f8cefe3d6395c4951a879c576 "pdflatex"
-  "Iracionalni_matrika.tex" 1664500580 19975 0f6365655409c4684dcfc975ea4e5f87 ""
-  "c:/Users/tina/Documents/GAJA/FAKS/CLANEK/IrracDesetiskiUlomki-1/Iracionalni_matrika.tex" 1664500580 19975 0f6365655409c4684dcfc975ea4e5f87 ""
+  "Iracionalni_matrika.aux" 1664567501 2136 e72d5b22c48781c09ada941bb967abb0 "pdflatex"
+  "Iracionalni_matrika.tex" 1664567487 20478 6f0e3aad19cb6f9978bc7776cdfc708d ""
+  "c:/Users/tina/Documents/GAJA/FAKS/CLANEK/IrracDesetiskiUlomki-1/Iracionalni_matrika.tex" 1664567487 20478 6f0e3aad19cb6f9978bc7776cdfc708d ""
   "matrika.sty" 1664487573 8841 b054e2b9565078f4935adde2c2a4f09d ""
   "oznake.sty" 1664487573 3573 f566e40d6205a1186536cae28fc501af ""
   "pisave.sty" 1664487573 2199 5abd30053f800ea1676722ededf4b821 ""
