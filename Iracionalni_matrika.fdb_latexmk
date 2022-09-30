@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Iracionalni_matrika"] 1664573604 "Iracionalni_matrika.aux" "Iracionalni_matrika.bbl" "Iracionalni_matrika" 1664573607
+["bibtex Iracionalni_matrika"] 1664574734 "Iracionalni_matrika.aux" "Iracionalni_matrika.bbl" "Iracionalni_matrika" 1664574737
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/bibtex/bst/amscls/amsplain.bst" 1591023610 25798 9b3546f2f237ee0ce4724eed95f954f4 ""
-  "Iracionalni_matrika.aux" 1664573606 2210 0692a11b4a66489b6b68317a225b5e34 "pdflatex"
+  "Iracionalni_matrika.aux" 1664574736 2210 0692a11b4a66489b6b68317a225b5e34 "pdflatex"
   "sampleBibFile.bib" 0 -1 0 ""
   (generated)
   "Iracionalni_matrika.bbl"
   "Iracionalni_matrika.blg"
-["pdflatex"] 1664573604 "c:/Users/tina/Documents/GAJA/FAKS/CLANEK/IrracDesetiskiUlomki-1/Iracionalni_matrika.tex" "Iracionalni_matrika.pdf" "Iracionalni_matrika" 1664573607
+["pdflatex"] 1664574734 "c:/Users/tina/Documents/GAJA/FAKS/CLANEK/IrracDesetiskiUlomki-1/Iracionalni_matrika.tex" "Iracionalni_matrika.pdf" "Iracionalni_matrika" 1664574737
   "C:/Users/tina/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1664569467 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/tina/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1664499788 10786437 c185473532606249cb02a5b36ba88ba5 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458477487 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -136,10 +136,10 @@
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/tex/latex/units/units.sty" 1469029150 2206 65ad9fb19763b1681bea4cb389fe84f8 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/tina/AppData/Local/Programs/MiKTeX/tex/xelatex/xetexconfig/crop.cfg" 1169254494 305 57c5d049d73b46b49f97b41eaa29558b ""
-  "Iracionalni_matrika.aux" 1664573606 2210 0692a11b4a66489b6b68317a225b5e34 "pdflatex"
+  "Iracionalni_matrika.aux" 1664574736 2210 0692a11b4a66489b6b68317a225b5e34 "pdflatex"
   "Iracionalni_matrika.bbl" 0 -1 0 "bibtex Iracionalni_matrika"
-  "Iracionalni_matrika.tex" 1664573603 20587 fb9459a6176ad04b6e07604e621f980d ""
-  "c:/Users/tina/Documents/GAJA/FAKS/CLANEK/IrracDesetiskiUlomki-1/Iracionalni_matrika.tex" 1664573603 20587 fb9459a6176ad04b6e07604e621f980d ""
+  "Iracionalni_matrika.tex" 1664574733 20584 be7d180b3891da9bf0fd73f092c010b8 ""
+  "c:/Users/tina/Documents/GAJA/FAKS/CLANEK/IrracDesetiskiUlomki-1/Iracionalni_matrika.tex" 1664574733 20584 be7d180b3891da9bf0fd73f092c010b8 ""
   "matrika.sty" 1664487573 8841 b054e2b9565078f4935adde2c2a4f09d ""
   "oznake.sty" 1664487573 3573 f566e40d6205a1186536cae28fc501af ""
   "pisave.sty" 1664487573 2199 5abd30053f800ea1676722ededf4b821 ""
