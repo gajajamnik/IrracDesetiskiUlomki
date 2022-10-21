@@ -1,0 +1,2 @@
+In the article we discuss how to decide the irrationality of a real number based on the properties of the sequence of its decimal expansions.
+We closely look at a number that has sequence of prime numbers for its decimals.

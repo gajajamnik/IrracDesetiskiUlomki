@@ -1,0 +1,2 @@
+V članku obravnavamo načine, kako iz zaporedja števk v decimalnem zapisu realnega števila lahko določimo njegovo racionalnost oziroma iracionalnost.
+Podrobneje obravnavamo decimalno število s števkami, sestavljenimi iz zaporedja praštevil.
